@@ -14,4 +14,46 @@ public class Hotel {
     private String hotelName;
     private String hotelAddress;
     private String hotelDescription;
+
+    public String getHotelId() {
+        return hotelId;
+    }
+
+    public void setHotelId(String hotelId) {
+        this.hotelId = hotelId;
+    }
+
+    public String getHotelName() {
+        return hotelName;
+    }
+
+    public void setHotelName(String hotelName) {
+        this.hotelName = hotelName;
+    }
+
+    public String getHotelAddress() {
+        return hotelAddress;
+    }
+
+    public void setHotelAddress(String hotelAddress) {
+        this.hotelAddress = hotelAddress;
+    }
+
+    public String getHotelDescription() {
+        return hotelDescription;
+    }
+
+    public void setHotelDescription(String hotelDescription) {
+        this.hotelDescription = hotelDescription;
+    }
+
+    @Override
+    public String toString() {
+        return "Hotel{" +
+                "hotelId='" + hotelId + '\'' +
+                ", hotelName='" + hotelName + '\'' +
+                ", hotelAddress='" + hotelAddress + '\'' +
+                ", hotelDescription='" + hotelDescription + '\'' +
+                '}';
+    }
 }

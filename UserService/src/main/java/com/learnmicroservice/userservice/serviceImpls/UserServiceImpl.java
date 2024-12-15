@@ -23,13 +23,17 @@ public class UserServiceImpl implements UserService {
     @Override
     public User updateUser(User user, long id) {
         User existingUser = userRepo.findById(id).orElseThrow(()-> new ResourceNotFoundException("User with id " + id + " not found"));
+        existingUser.setName(user.getName());
+        existingUser.setEmail(user.getEmail());
+        existingUser.setAbout(user.getAbout());
         return userRepo.save(existingUser);
     }
 
     @Override
-    public void deleteUser(long id) {
+    public String deleteUser(long id) {
         User existingUser = userRepo.findById(id).orElseThrow(()-> new ResourceNotFoundException("User with id " + id + " not found"));
         userRepo.delete(existingUser);
+        return "User with id " + id + " deleted successfully";
     }
 
     @Override
@@ -45,6 +49,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public List<User> createUsers(List<User> users) {
+        System.out.println("List of users in service ## "+users);
         return userRepo.saveAll(users);
     }
 }

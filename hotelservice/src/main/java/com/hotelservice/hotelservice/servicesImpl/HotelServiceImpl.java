@@ -35,6 +35,8 @@ public class HotelServiceImpl implements HotelService {
 
     @Override
     public Hotel getHotel(String id) {
+        System.out.println("Hotel ID ### "+id);
+        System.out.println("hotel details ### "+hotelRepo.findById(id).toString());
         return hotelRepo.findById(id).orElseThrow(()-> new ResourceNotFoundException("Hotel with id " + id + " not found"));
     }
 

@@ -38,8 +38,14 @@ public class UserControllers {
     }
 
     @PostMapping("/savingUsers")
-    public ResponseEntity<List<User>> createUsers(List<User> users){
+    public ResponseEntity<List<User>> createUsers(@RequestBody List<User> users){
+        System.out.println("List of users "+users);
         return ResponseEntity.ok(userService.createUsers(users));
+    }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<String> deleteUser(@PathVariable long id){
+        return ResponseEntity.ok(userService.deleteUser(id));
     }
 
 
