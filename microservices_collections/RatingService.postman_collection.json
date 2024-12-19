@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "b183b5ad-e5bf-4967-9fce-461ded239938",
+		"name": "RatingService",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34119646"
+	},
+	"item": [
+		{
+			"name": "createRating",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"userId\":\"102\",\r\n\"hotelId\":\"8068e000-bc72-4f2b-8a14-a5a100ea9ced\",\r\n\"rating\":9,\r\n\"feedback\":\"Service is so good\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/rating/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"rating",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllRatings",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/rating/getAll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"rating",
+						"getAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetRatingsByUserId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/rating/getByUserId/101",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"rating",
+						"getByUserId",
+						"101"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getratingByHotelId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/rating/getByHotelId/207d1084-8934-4ef7-9c38-41527b446857",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"rating",
+						"getByHotelId",
+						"207d1084-8934-4ef7-9c38-41527b446857"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

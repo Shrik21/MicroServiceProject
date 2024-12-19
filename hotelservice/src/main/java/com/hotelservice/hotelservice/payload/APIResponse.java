@@ -17,6 +17,10 @@ public class APIResponse {
         this.status = status;
     }
 
+    public APIResponse() {
+
+    }
+
     public String getMessage() {
         return message;
     }
