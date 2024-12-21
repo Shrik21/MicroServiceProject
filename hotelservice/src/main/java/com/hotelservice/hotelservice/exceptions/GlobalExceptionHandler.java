@@ -1,7 +1,6 @@
-package com.hotelservice.hotelservice.repositories;
+package com.hotelservice.hotelservice.exceptions;
 
 
-import com.hotelservice.hotelservice.exceptions.ResourceNotFoundException;
 import com.hotelservice.hotelservice.payload.APIResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
