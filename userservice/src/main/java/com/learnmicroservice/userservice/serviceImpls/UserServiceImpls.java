@@ -4,6 +4,7 @@ import com.learnmicroservice.userservice.entities.Hotel;
 import com.learnmicroservice.userservice.entities.Ratings;
 import com.learnmicroservice.userservice.entities.User;
 import com.learnmicroservice.userservice.exception.ResourceNotFoundException;
+import com.learnmicroservice.userservice.external.services.HotelService;
 import com.learnmicroservice.userservice.repositories.UserRepo;
 import com.learnmicroservice.userservice.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,6 +27,9 @@ public class UserServiceImpls implements UserService {
 
     @Autowired
     private RestTemplate restTemplate;
+
+    @Autowired
+    HotelService hotelService;
 
 
     private Logger logger = Logger.getLogger(UserServiceImpls.class.getName());
@@ -66,8 +70,11 @@ public class UserServiceImpls implements UserService {
             // api call to hotelService to get the hotel
             // details based on the hotelId
             logger.info("Getting Hotel details for hotelId {} "+rating.getHotelId());
-           ResponseEntity<Hotel> hotelDetails = restTemplate.getForEntity("http://HOTEL-SERVICE/hotels/"+rating.getHotelId(), Hotel.class);
-            Hotel hotel = hotelDetails.getBody();
+          // ResponseEntity<Hotel> hotelDetails = restTemplate.getForEntity("http://HOTEL-SERVICE/hotels/"+rating.getHotelId(), Hotel.class);
+
+           //Hotel hotel = hotelDetails.getBody();
+
+            Hotel hotel = hotelService.getHotel(rating.getHotelId());
             rating.setHotel(hotel);
             return new Ratings();
         }).toList(); // toList() is used to collect the stream of ratings into a list
