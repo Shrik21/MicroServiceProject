@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "19a2bde4-b6a2-46ea-a1c8-824eefd34e35",
+		"name": "HotelService",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34119646"
+	},
+	"item": [
+		{
+			"name": "GetHotelById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/hotels/101",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"hotels",
+						"101"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllHotels",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/hotels/allHotels",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"hotels",
+						"allHotels"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SaveHotel",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n       \r\n        \"hotelName\": \"Taj\",\r\n        \"hotelAddress\": \"BVdcib \",\r\n        \"hotelDescription\": \"Test add\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/hotels/saveHotel",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"hotels",
+						"saveHotel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateHotel",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"hotelId\": \"101\",\r\n        \"hotelName\": \"Morya\",\r\n        \"hotelAddress\": \"BVdcib \",\r\n        \"hotelDescription\": \"Test add\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/hotels/101",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"hotels",
+						"101"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteHotel",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/hotels/101",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"hotels",
+						"101"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
