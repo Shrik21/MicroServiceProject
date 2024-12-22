@@ -1,19 +1,34 @@
 package com.learnmicroservice.userservice.serviceImpls;
 
+import com.learnmicroservice.userservice.entities.Hotel;
+import com.learnmicroservice.userservice.entities.Ratings;
 import com.learnmicroservice.userservice.entities.User;
 import com.learnmicroservice.userservice.exception.ResourceNotFoundException;
 import com.learnmicroservice.userservice.repositories.UserRepo;
 import com.learnmicroservice.userservice.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
 
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.logging.Logger;
+import java.util.stream.Collectors;
 
 @Service
 public class UserServiceImpls implements UserService {
     @Autowired
     UserRepo userRepo;
+
+    @Autowired
+    private RestTemplate restTemplate;
+
+
+    private Logger logger = Logger.getLogger(UserServiceImpls.class.getName());
 
     @Override
     public User createUser(User user) {
@@ -38,12 +53,31 @@ public class UserServiceImpls implements UserService {
 
     @Override
     public User getUser(long id) {
-        return userRepo.findById(id).orElseThrow(()-> new ResourceNotFoundException("User with id " + id + " not found"));
+        User user= userRepo.findById(id).orElseThrow(()-> new ResourceNotFoundException("User with id " + id + " not found"));
+
+        //fetching rating of the above user from Rating service
+        Ratings[] ratingOfUser =   restTemplate.getForObject("http://RATING-SERVICE/rating/getByUserId/"+user.getId(), Ratings[].class);
+        logger.info("User Details ### "+user.toString());
+        logger.info(" "+ratingOfUser);
+
+        List<Ratings> ratings= Arrays.stream(ratingOfUser).toList();
+
+        ratings.stream().map(rating -> {
+            // api call to hotelService to get the hotel
+            // details based on the hotelId
+            logger.info("Getting Hotel details for hotelId {} "+rating.getHotelId());
+           ResponseEntity<Hotel> hotelDetails = restTemplate.getForEntity("http://HOTEL-SERVICE/hotels/"+rating.getHotelId(), Hotel.class);
+            Hotel hotel = hotelDetails.getBody();
+            rating.setHotel(hotel);
+            return new Ratings();
+        }).toList(); // toList() is used to collect the stream of ratings into a list
+        user.setRatings(ratings);
+
+        return user;
     }
 
     @Override
     public List<User> getAllUsers() {
-        System.out.println("User Details ### "+userRepo.findAll().toString());
         return userRepo.findAll();
     }
 

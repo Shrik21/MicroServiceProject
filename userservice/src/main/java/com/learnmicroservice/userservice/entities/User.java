@@ -2,6 +2,10 @@ package com.learnmicroservice.userservice.entities;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import com.learnmicroservice.userservice.entities.Ratings;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Data
 @Entity
@@ -21,6 +25,17 @@ public class User {
 
     @Column(name = "about")
     private String about;
+
+    @Transient
+    private List<Ratings> ratings= new ArrayList<>();
+
+    public List<Ratings> getRatings() {
+        return ratings;
+    }
+
+    public void setRatings(List<Ratings> ratings) {
+        this.ratings = ratings;
+    }
 
     public Long getId() {
         return id;
