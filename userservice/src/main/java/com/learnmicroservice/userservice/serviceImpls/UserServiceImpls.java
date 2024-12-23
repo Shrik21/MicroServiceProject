@@ -8,17 +8,13 @@ import com.learnmicroservice.userservice.external.services.HotelService;
 import com.learnmicroservice.userservice.repositories.UserRepo;
 import com.learnmicroservice.userservice.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.logging.Logger;
-import java.util.stream.Collectors;
 
 @Service
 public class UserServiceImpls implements UserService {

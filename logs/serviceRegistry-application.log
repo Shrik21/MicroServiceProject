@@ -156,3 +156,40 @@
 2024-12-23T20:40:54.445+05:30  INFO 22448 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
 2024-12-23T20:41:54.446+05:30  INFO 22448 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
 2024-12-23T20:42:54.446+05:30  INFO 22448 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-12-23T22:30:43.839+05:30  INFO 22448 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6413595ms
+2024-12-23T22:31:43.842+05:30  INFO 22448 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2024-12-23T22:32:43.629+05:30  INFO 22448 --- [serviceRegistry] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 5
+2024-12-23T22:32:43.842+05:30  INFO 22448 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-12-23T22:33:43.843+05:30  INFO 22448 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-12-23T22:34:43.843+05:30  INFO 22448 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-12-23T22:35:43.844+05:30  INFO 22448 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-12-23T22:36:43.844+05:30  INFO 22448 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-12-23T22:37:43.626+05:30  WARN 22448 --- [serviceRegistry] [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2024-12-23T22:37:43.845+05:30  INFO 22448 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2024-12-23T22:38:43.846+05:30  INFO 22448 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-12-23T22:39:43.846+05:30  INFO 22448 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-12-23T22:40:10.688+05:30  INFO 22448 --- [serviceRegistry] [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USER-SERVICE/Shreyansh:user-service:8080 with status UP (replication=false)
+2024-12-23T22:40:43.847+05:30  INFO 22448 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-12-23T22:41:13.635+05:30  INFO 22448 --- [serviceRegistry] [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USER-SERVICE/Shreyansh:user-service:8080 with status DOWN (replication=false)
+2024-12-23T22:41:16.688+05:30  INFO 22448 --- [serviceRegistry] [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance USER-SERVICE/Shreyansh:user-service:8080 (replication=false)
+2024-12-23T22:41:29.929+05:30  INFO 22448 --- [serviceRegistry] [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USER-SERVICE/Shreyansh:user-service:8080 with status UP (replication=false)
+2024-12-23T22:41:43.847+05:30  INFO 22448 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-12-23T22:42:43.847+05:30  INFO 22448 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-12-23T22:43:43.848+05:30  INFO 22448 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-12-23T22:44:02.998+05:30  INFO 22448 --- [serviceRegistry] [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USER-SERVICE/Shreyansh:user-service:8080 with status DOWN (replication=false)
+2024-12-23T22:44:06.064+05:30  INFO 22448 --- [serviceRegistry] [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance USER-SERVICE/Shreyansh:user-service:8080 (replication=false)
+2024-12-23T22:44:19.797+05:30  INFO 22448 --- [serviceRegistry] [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USER-SERVICE/Shreyansh:user-service:8080 with status UP (replication=false)
+2024-12-23T22:44:43.849+05:30  INFO 22448 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-12-23T22:45:22.844+05:30  INFO 22448 --- [serviceRegistry] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SERVICEREGISTRY with eureka with status DOWN
+2024-12-23T22:45:22.849+05:30  INFO 22448 --- [serviceRegistry] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-23T22:45:22.853+05:30  INFO 22448 --- [serviceRegistry] [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance RATING-SERVICE/Shreyansh:rating-service:8082 with status DOWN (replication=false)
+2024-12-23T22:45:22.853+05:30  INFO 22448 --- [serviceRegistry] [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HOTEL-SERVICE/Shreyansh:hotel-service:8081 with status DOWN (replication=false)
+2024-12-23T22:45:22.861+05:30  INFO 22448 --- [serviceRegistry] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-23T22:45:22.865+05:30  INFO 22448 --- [serviceRegistry] [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
+2024-12-23T22:45:22.865+05:30  INFO 22448 --- [serviceRegistry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2024-12-23T22:45:22.866+05:30  INFO 22448 --- [serviceRegistry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2024-12-23T22:45:22.867+05:30  INFO 22448 --- [serviceRegistry] [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
+2024-12-23T22:45:22.869+05:30  INFO 22448 --- [serviceRegistry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2024-12-23T22:45:22.869+05:30  INFO 22448 --- [serviceRegistry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2024-12-23T22:45:22.883+05:30  INFO 22448 --- [serviceRegistry] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-12-23T22:45:22.883+05:30  INFO 22448 --- [serviceRegistry] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
