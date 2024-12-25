@@ -8,6 +8,7 @@ import com.learnmicroservice.userservice.external.services.HotelService;
 import com.learnmicroservice.userservice.repositories.UserRepo;
 import com.learnmicroservice.userservice.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -58,7 +59,7 @@ public class UserServiceImpls implements UserService {
         //fetching rating of the above user from Rating service
         Ratings[] ratingOfUser =   restTemplate.getForObject("http://RATING-SERVICE/rating/getByUserId/"+user.getId(), Ratings[].class);
         logger.info("User Details ### "+user.toString());
-        logger.info(" "+ratingOfUser);
+        logger.info("Rating ** "+ Arrays.toString(ratingOfUser));
 
         List<Ratings> ratings= Arrays.stream(ratingOfUser).toList();
 
@@ -66,11 +67,11 @@ public class UserServiceImpls implements UserService {
             // api call to hotelService to get the hotel
             // details based on the hotelId
             logger.info("Getting Hotel details for hotelId {} "+rating.getHotelId());
-          // ResponseEntity<Hotel> hotelDetails = restTemplate.getForEntity("http://HOTEL-SERVICE/hotels/"+rating.getHotelId(), Hotel.class);
+           ResponseEntity<Hotel> hotelDetails = restTemplate.getForEntity("http://HOTEL-SERVICE/hotels/"+rating.getHotelId(), Hotel.class);
 
-           //Hotel hotel = hotelDetails.getBody();
+           Hotel hotel = hotelDetails.getBody();
 
-            Hotel hotel = hotelService.getHotel(rating.getHotelId());
+          //  Hotel hotel = hotelService.getHotel(rating.getHotelId());
             rating.setHotel(hotel);
             return new Ratings();
         }).toList(); // toList() is used to collect the stream of ratings into a list

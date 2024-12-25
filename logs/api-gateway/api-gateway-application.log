@@ -46,3 +46,252 @@
 2024-12-25T14:53:16.464+05:30  INFO 11948 --- [API-Gateway] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
 2024-12-25T14:53:16.464+05:30  INFO 11948 --- [API-Gateway] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
 2024-12-25T14:53:16.506+05:30  INFO 11948 --- [API-Gateway] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-12-25T14:57:45.793+05:30  INFO 11948 --- [API-Gateway] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-25T15:02:45.795+05:30  INFO 11948 --- [API-Gateway] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-25T15:07:45.811+05:30  INFO 11948 --- [API-Gateway] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-25T15:12:45.828+05:30  INFO 11948 --- [API-Gateway] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-25T15:17:45.840+05:30  INFO 11948 --- [API-Gateway] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-25T15:22:45.843+05:30  INFO 11948 --- [API-Gateway] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-25T15:25:52.828+05:30  INFO 11948 --- [API-Gateway] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application API-GATEWAY with eureka with status DOWN
+2024-12-25T15:25:52.829+05:30  INFO 11948 --- [API-Gateway] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1735120552829, current=DOWN, previous=UP]
+2024-12-25T15:25:52.829+05:30  INFO 11948 --- [API-Gateway] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Shreyansh:API-Gateway:8083: registering service...
+2024-12-25T15:25:52.831+05:30  INFO 11948 --- [API-Gateway] [SpringApplicationShutdownHook] o.s.b.w.embedded.netty.GracefulShutdown  : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-25T15:25:52.837+05:30  INFO 11948 --- [API-Gateway] [netty-shutdown] o.s.b.w.embedded.netty.GracefulShutdown  : Graceful shutdown complete
+2024-12-25T15:25:52.853+05:30  INFO 11948 --- [API-Gateway] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Shreyansh:API-Gateway:8083 - registration status: 204
+2024-12-25T15:25:54.939+05:30  INFO 11948 --- [API-Gateway] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-12-25T15:25:57.945+05:30  INFO 11948 --- [API-Gateway] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-12-25T15:25:57.967+05:30  INFO 11948 --- [API-Gateway] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Shreyansh:API-Gateway:8083 - deregister  status: 200
+2024-12-25T15:25:57.969+05:30  INFO 11948 --- [API-Gateway] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2024-12-25T15:26:01.863+05:30  INFO 17900 --- [API-Gateway] [main] c.l.apigateway.ApiGatewayApplication     : Starting ApiGatewayApplication using Java 22 with PID 17900 (D:\code\microService\APIGateway\target\classes started by Shreyansh in D:\code\microService\userservice)
+2024-12-25T15:26:01.867+05:30  INFO 17900 --- [API-Gateway] [main] c.l.apigateway.ApiGatewayApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-12-25T15:26:03.222+05:30  INFO 17900 --- [API-Gateway] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f123f9a7-f5d4-3f03-a5ab-62fe28dbc378
+2024-12-25T15:26:04.671+05:30  INFO 17900 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2024-12-25T15:26:04.671+05:30  INFO 17900 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2024-12-25T15:26:04.671+05:30  INFO 17900 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2024-12-25T15:26:04.672+05:30  INFO 17900 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2024-12-25T15:26:04.672+05:30  INFO 17900 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2024-12-25T15:26:04.672+05:30  INFO 17900 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2024-12-25T15:26:04.673+05:30  INFO 17900 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2024-12-25T15:26:04.673+05:30  INFO 17900 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2024-12-25T15:26:04.673+05:30  INFO 17900 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2024-12-25T15:26:04.674+05:30  INFO 17900 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2024-12-25T15:26:04.674+05:30  INFO 17900 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2024-12-25T15:26:04.674+05:30  INFO 17900 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-12-25T15:26:04.674+05:30  INFO 17900 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2024-12-25T15:26:04.674+05:30  INFO 17900 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-12-25T15:26:05.167+05:30  INFO 17900 --- [API-Gateway] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-12-25T15:26:05.234+05:30  WARN 17900 --- [API-Gateway] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-12-25T15:26:05.351+05:30  INFO 17900 --- [API-Gateway] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-12-25T15:26:05.395+05:30  INFO 17900 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-12-25T15:26:05.405+05:30  INFO 17900 --- [API-Gateway] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-25T15:26:05.423+05:30  INFO 17900 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-12-25T15:26:05.423+05:30  INFO 17900 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-12-25T15:26:05.423+05:30  INFO 17900 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-12-25T15:26:05.424+05:30  INFO 17900 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-12-25T15:26:05.424+05:30  INFO 17900 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-12-25T15:26:05.424+05:30  INFO 17900 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-12-25T15:26:05.425+05:30  INFO 17900 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-12-25T15:26:06.095+05:30  INFO 17900 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-12-25T15:26:06.099+05:30  INFO 17900 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-12-25T15:26:06.103+05:30  INFO 17900 --- [API-Gateway] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-12-25T15:26:06.106+05:30  INFO 17900 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1735120566105 with initial instances count: 3
+2024-12-25T15:26:06.114+05:30  INFO 17900 --- [API-Gateway] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application API-GATEWAY with eureka with status UP
+2024-12-25T15:26:06.116+05:30  INFO 17900 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1735120566116, current=UP, previous=STARTING]
+2024-12-25T15:26:06.117+05:30  INFO 17900 --- [API-Gateway] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Shreyansh:API-Gateway:8083: registering service...
+2024-12-25T15:26:06.170+05:30 ERROR 17900 --- [API-Gateway] [main] o.s.c.gateway.route.CachingRouteLocator  : Refresh routes error !!!
+
+java.lang.IllegalArgumentException: Unable to find RoutePredicateFactory with name - path
+	at org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator.lookup(RouteDefinitionRouteLocator.java:219) ~[spring-cloud-gateway-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator.combinePredicates(RouteDefinitionRouteLocator.java:205) ~[spring-cloud-gateway-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator.convertToRoute(RouteDefinitionRouteLocator.java:131) ~[spring-cloud-gateway-server-4.2.0.jar:4.2.0]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:106) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.tryEmitScalar(FluxFlatMap.java:492) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.onNext(FluxFlatMap.java:424) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialMain.drain(FluxMergeSequential.java:439) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialMain.innerNext(FluxMergeSequential.java:304) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialInner.onNext(FluxMergeSequential.java:578) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableSubscriber.tryOnNext(FluxFilterFuseable.java:148) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxIterable$IterableSubscriptionConditional.slowPath(FluxIterable.java:664) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxIterable$IterableSubscriptionConditional.request(FluxIterable.java:623) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableSubscriber.request(FluxFilterFuseable.java:191) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialInner.onSubscribe(FluxMergeSequential.java:571) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableSubscriber.onSubscribe(FluxFilterFuseable.java:87) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:179) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8891) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialMain.onNext(FluxMergeSequential.java:237) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.slowPath(FluxIterable.java:335) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:294) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialMain.onSubscribe(FluxMergeSequential.java:198) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8891) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialMain.onNext(FluxMergeSequential.java:237) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.slowPath(FluxIterable.java:335) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:294) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialMain.onSubscribe(FluxMergeSequential.java:198) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4576) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.Mono.subscribeWith(Mono.java:4642) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4542) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4478) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4450) ~[reactor-core-3.7.1.jar:3.7.1]
+	at org.springframework.cloud.gateway.route.CachingRouteLocator.onApplicationEvent(CachingRouteLocator.java:98) ~[spring-cloud-gateway-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.gateway.route.CachingRouteLocator.onApplicationEvent(CachingRouteLocator.java:42) ~[spring-cloud-gateway-server-4.2.0.jar:4.2.0]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:454) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:387) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.cloud.gateway.route.RouteRefreshListener.reset(RouteRefreshListener.java:78) ~[spring-cloud-gateway-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.gateway.route.RouteRefreshListener.onApplicationEvent(RouteRefreshListener.java:59) ~[spring-cloud-gateway-server-4.2.0.jar:4.2.0]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:454) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:387) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:91) ~[spring-cloud-netflix-eureka-client-4.2.0.jar:4.2.0]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:323) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:510) ~[spring-context-6.2.1.jar:6.2.1]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:295) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:240) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:1006) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:630) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.1.jar:3.4.1]
+	at com.learnmicroservice.apigateway.ApiGatewayApplication.main(ApiGatewayApplication.java:12) ~[classes/:na]
+
+2024-12-25T15:26:06.191+05:30  INFO 17900 --- [API-Gateway] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Shreyansh:API-Gateway:8083 - registration status: 204
+2024-12-25T15:26:06.201+05:30  WARN 17900 --- [API-Gateway] [main] onfigReactiveWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'eurekaAutoServiceRegistration'
+2024-12-25T15:26:06.207+05:30  INFO 17900 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-12-25T15:26:09.220+05:30  INFO 17900 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-12-25T15:26:09.241+05:30  INFO 17900 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Shreyansh:API-Gateway:8083 - deregister  status: 200
+2024-12-25T15:26:09.242+05:30  INFO 17900 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2024-12-25T15:26:09.259+05:30  INFO 17900 --- [API-Gateway] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-25T15:26:09.306+05:30 ERROR 17900 --- [API-Gateway] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Failed to start bean 'eurekaAutoServiceRegistration'
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:326) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:510) ~[spring-context-6.2.1.jar:6.2.1]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:295) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:240) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:1006) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:630) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:66) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.1.jar:3.4.1]
+	at com.learnmicroservice.apigateway.ApiGatewayApplication.main(ApiGatewayApplication.java:12) ~[classes/:na]
+Caused by: java.lang.IllegalArgumentException: Unable to find RoutePredicateFactory with name - path
+	at org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator.lookup(RouteDefinitionRouteLocator.java:219) ~[spring-cloud-gateway-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator.combinePredicates(RouteDefinitionRouteLocator.java:205) ~[spring-cloud-gateway-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.gateway.route.RouteDefinitionRouteLocator.convertToRoute(RouteDefinitionRouteLocator.java:131) ~[spring-cloud-gateway-server-4.2.0.jar:4.2.0]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:106) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.tryEmitScalar(FluxFlatMap.java:492) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.onNext(FluxFlatMap.java:424) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialMain.drain(FluxMergeSequential.java:439) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialMain.innerNext(FluxMergeSequential.java:304) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialInner.onNext(FluxMergeSequential.java:578) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableSubscriber.tryOnNext(FluxFilterFuseable.java:148) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxIterable$IterableSubscriptionConditional.slowPath(FluxIterable.java:664) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxIterable$IterableSubscriptionConditional.request(FluxIterable.java:623) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableSubscriber.request(FluxFilterFuseable.java:191) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialInner.onSubscribe(FluxMergeSequential.java:571) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableSubscriber.onSubscribe(FluxFilterFuseable.java:87) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:179) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8891) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialMain.onNext(FluxMergeSequential.java:237) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.slowPath(FluxIterable.java:335) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:294) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialMain.onSubscribe(FluxMergeSequential.java:198) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8891) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialMain.onNext(FluxMergeSequential.java:237) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.slowPath(FluxIterable.java:335) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:294) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxMergeSequential$MergeSequentialMain.onSubscribe(FluxMergeSequential.java:198) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:201) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:83) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.InternalFluxOperator.subscribe(InternalFluxOperator.java:68) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.Flux.subscribe(Flux.java:8891) ~[reactor-core-3.7.1.jar:3.7.1]
+	at reactor.core.publisher.Flux.blockLast(Flux.java:2816) ~[reactor-core-3.7.1.jar:3.7.1]
+	at org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter.lambda$onApplicationEvent$3(WeightCalculatorWebFilter.java:156) ~[spring-cloud-gateway-server-4.2.0.jar:4.2.0]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory$DependencyObjectProvider.ifAvailable(DefaultListableBeanFactory.java:2403) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter.onApplicationEvent(WeightCalculatorWebFilter.java:156) ~[spring-cloud-gateway-server-4.2.0.jar:4.2.0]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:454) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:387) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.cloud.gateway.route.RouteRefreshListener.reset(RouteRefreshListener.java:78) ~[spring-cloud-gateway-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.gateway.route.RouteRefreshListener.onApplicationEvent(RouteRefreshListener.java:59) ~[spring-cloud-gateway-server-4.2.0.jar:4.2.0]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:454) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:387) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:91) ~[spring-cloud-netflix-eureka-client-4.2.0.jar:4.2.0]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:323) ~[spring-context-6.2.1.jar:6.2.1]
+	... 13 common frames omitted
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:104) ~[reactor-core-3.7.1.jar:3.7.1]
+		at reactor.core.publisher.Flux.blockLast(Flux.java:2817) ~[reactor-core-3.7.1.jar:3.7.1]
+		... 30 common frames omitted
+
+2024-12-25T15:28:19.234+05:30  INFO 15576 --- [API-Gateway] [main] c.l.apigateway.ApiGatewayApplication     : Starting ApiGatewayApplication using Java 22 with PID 15576 (D:\code\microService\APIGateway\target\classes started by Shreyansh in D:\code\microService\userservice)
+2024-12-25T15:28:19.238+05:30  INFO 15576 --- [API-Gateway] [main] c.l.apigateway.ApiGatewayApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-12-25T15:28:20.867+05:30  INFO 15576 --- [API-Gateway] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f123f9a7-f5d4-3f03-a5ab-62fe28dbc378
+2024-12-25T15:28:22.567+05:30  INFO 15576 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2024-12-25T15:28:22.568+05:30  INFO 15576 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2024-12-25T15:28:22.570+05:30  INFO 15576 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2024-12-25T15:28:22.570+05:30  INFO 15576 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2024-12-25T15:28:22.570+05:30  INFO 15576 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2024-12-25T15:28:22.570+05:30  INFO 15576 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2024-12-25T15:28:22.571+05:30  INFO 15576 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2024-12-25T15:28:22.571+05:30  INFO 15576 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2024-12-25T15:28:22.571+05:30  INFO 15576 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2024-12-25T15:28:22.571+05:30  INFO 15576 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2024-12-25T15:28:22.571+05:30  INFO 15576 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2024-12-25T15:28:22.573+05:30  INFO 15576 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-12-25T15:28:22.573+05:30  INFO 15576 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2024-12-25T15:28:22.573+05:30  INFO 15576 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-12-25T15:28:23.098+05:30  INFO 15576 --- [API-Gateway] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-12-25T15:28:23.173+05:30  WARN 15576 --- [API-Gateway] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-12-25T15:28:23.293+05:30  INFO 15576 --- [API-Gateway] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-12-25T15:28:23.332+05:30  INFO 15576 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-12-25T15:28:23.340+05:30  INFO 15576 --- [API-Gateway] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-25T15:28:23.360+05:30  INFO 15576 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-12-25T15:28:23.361+05:30  INFO 15576 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-12-25T15:28:23.361+05:30  INFO 15576 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-12-25T15:28:23.361+05:30  INFO 15576 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-12-25T15:28:23.362+05:30  INFO 15576 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-12-25T15:28:23.362+05:30  INFO 15576 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-12-25T15:28:23.362+05:30  INFO 15576 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-12-25T15:28:24.108+05:30  INFO 15576 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-12-25T15:28:24.112+05:30  INFO 15576 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-12-25T15:28:24.116+05:30  INFO 15576 --- [API-Gateway] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-12-25T15:28:24.120+05:30  INFO 15576 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1735120704118 with initial instances count: 3
+2024-12-25T15:28:24.127+05:30  INFO 15576 --- [API-Gateway] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application API-GATEWAY with eureka with status UP
+2024-12-25T15:28:24.128+05:30  INFO 15576 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1735120704128, current=UP, previous=STARTING]
+2024-12-25T15:28:24.132+05:30  INFO 15576 --- [API-Gateway] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Shreyansh:API-Gateway:8083: registering service...
+2024-12-25T15:28:24.207+05:30  INFO 15576 --- [API-Gateway] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Shreyansh:API-Gateway:8083 - registration status: 204
+2024-12-25T15:28:24.447+05:30  INFO 15576 --- [API-Gateway] [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8083 (http)
+2024-12-25T15:28:24.449+05:30  INFO 15576 --- [API-Gateway] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
+2024-12-25T15:28:24.486+05:30  INFO 15576 --- [API-Gateway] [main] c.l.apigateway.ApiGatewayApplication     : Started ApiGatewayApplication in 6.108 seconds (process running for 7.53)
+2024-12-25T15:33:23.366+05:30  INFO 15576 --- [API-Gateway] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-25T15:38:23.375+05:30  INFO 15576 --- [API-Gateway] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-25T15:43:23.384+05:30  INFO 15576 --- [API-Gateway] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

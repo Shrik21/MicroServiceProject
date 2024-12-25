@@ -13,7 +13,6 @@ import lombok.NoArgsConstructor;
 public class Ratings {
     private String ratingId;
     private String userId;
-    @JsonIgnore
     private String hotelId;
     private int rating;
     private String feedback;
