@@ -253,3 +253,683 @@ Caused by: org.eclipse.jgit.api.errors.RefNotFoundException: Ref configurations 
 	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.refresh(JGitEnvironmentRepository.java:306) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
 	... 69 common frames omitted
 
+2024-12-25T21:24:53.418+05:30  INFO 16904 --- [config-Server] [http-nio-8884-exec-4] .c.s.e.MultipleJGitEnvironmentRepository : Fetched for remote main and found 1 updates
+2024-12-25T21:25:02.779+05:30  INFO 16904 --- [config-Server] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-25T21:26:30.064+05:30  INFO 16904 --- [config-Server] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application CONFIG-SERVER with eureka with status DOWN
+2024-12-25T21:26:30.064+05:30  INFO 16904 --- [config-Server] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1735142190064, current=DOWN, previous=UP]
+2024-12-25T21:26:30.064+05:30  INFO 16904 --- [config-Server] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CONFIG-SERVER/Shreyansh:config-Server:8884: registering service...
+2024-12-25T21:26:30.067+05:30  INFO 16904 --- [config-Server] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-25T21:26:30.070+05:30  WARN 16904 --- [config-Server] [Thread-3] .c.s.e.MultipleJGitEnvironmentRepository : Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\ASUS\AppData\Local\Temp\config-repo-5386998746926116020\.git\objects\pack\pack-7c788364aa1c1d789a2c5a5e89aa6f4be2a2a4e1.idx
+2024-12-25T21:26:30.072+05:30  INFO 16904 --- [config-Server] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-25T21:26:30.073+05:30  INFO 16904 --- [config-Server] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CONFIG-SERVER/Shreyansh:config-Server:8884 - registration status: 204
+2024-12-25T21:26:30.077+05:30  INFO 16904 --- [config-Server] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-12-25T21:26:33.090+05:30  INFO 16904 --- [config-Server] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-12-25T21:26:33.107+05:30  INFO 16904 --- [config-Server] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CONFIG-SERVER/Shreyansh:config-Server:8884 - deregister  status: 200
+2024-12-25T21:26:33.107+05:30  INFO 16904 --- [config-Server] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2024-12-25T21:26:35.601+05:30  INFO 3376 --- [config-Server] [main] c.l.c.ConfigServerApplication            : Starting ConfigServerApplication using Java 22 with PID 3376 (D:\code\microService\configServer\target\classes started by Shreyansh in D:\code\microService\userservice)
+2024-12-25T21:26:35.604+05:30  INFO 3376 --- [config-Server] [main] c.l.c.ConfigServerApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-25T21:26:36.307+05:30  INFO 3376 --- [config-Server] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=203e7980-dc78-32b5-a8a4-7bc814dc62e1
+2024-12-25T21:26:36.492+05:30  INFO 3376 --- [config-Server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8884 (http)
+2024-12-25T21:26:36.501+05:30  INFO 3376 --- [config-Server] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-25T21:26:36.501+05:30  INFO 3376 --- [config-Server] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-25T21:26:36.548+05:30  INFO 3376 --- [config-Server] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-25T21:26:36.548+05:30  INFO 3376 --- [config-Server] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 896 ms
+2024-12-25T21:26:37.134+05:30  INFO 3376 --- [config-Server] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-12-25T21:26:39.882+05:30  WARN 3376 --- [config-Server] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-12-25T21:26:39.914+05:30  INFO 3376 --- [config-Server] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-12-25T21:26:39.930+05:30  INFO 3376 --- [config-Server] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-12-25T21:26:39.933+05:30  INFO 3376 --- [config-Server] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-25T21:26:39.938+05:30  INFO 3376 --- [config-Server] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-12-25T21:26:39.938+05:30  INFO 3376 --- [config-Server] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-12-25T21:26:39.940+05:30  INFO 3376 --- [config-Server] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-12-25T21:26:39.940+05:30  INFO 3376 --- [config-Server] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-12-25T21:26:39.940+05:30  INFO 3376 --- [config-Server] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-12-25T21:26:39.940+05:30  INFO 3376 --- [config-Server] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-12-25T21:26:39.940+05:30  INFO 3376 --- [config-Server] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-12-25T21:26:40.150+05:30  INFO 3376 --- [config-Server] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-12-25T21:26:40.152+05:30  INFO 3376 --- [config-Server] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-12-25T21:26:40.153+05:30  INFO 3376 --- [config-Server] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-12-25T21:26:40.155+05:30  INFO 3376 --- [config-Server] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1735142200154 with initial instances count: 5
+2024-12-25T21:26:40.158+05:30  INFO 3376 --- [config-Server] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CONFIG-SERVER with eureka with status UP
+2024-12-25T21:26:40.159+05:30  INFO 3376 --- [config-Server] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1735142200159, current=UP, previous=STARTING]
+2024-12-25T21:26:40.161+05:30  INFO 3376 --- [config-Server] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CONFIG-SERVER/Shreyansh:config-Server:8884: registering service...
+2024-12-25T21:26:40.177+05:30  INFO 3376 --- [config-Server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8884 (http) with context path '/'
+2024-12-25T21:26:40.177+05:30  INFO 3376 --- [config-Server] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8884
+2024-12-25T21:26:40.191+05:30  INFO 3376 --- [config-Server] [main] c.l.c.ConfigServerApplication            : Started ConfigServerApplication in 5.101 seconds (process running for 5.825)
+2024-12-25T21:26:40.196+05:30  INFO 3376 --- [config-Server] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CONFIG-SERVER/Shreyansh:config-Server:8884 - registration status: 204
+2024-12-25T21:27:17.263+05:30  INFO 3376 --- [config-Server] [http-nio-8884-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-25T21:27:17.263+05:30  INFO 3376 --- [config-Server] [http-nio-8884-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-25T21:27:17.264+05:30  INFO 3376 --- [config-Server] [http-nio-8884-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-25T21:28:07.903+05:30  WARN 3376 --- [config-Server] [http-nio-8884-exec-4] o.s.c.c.s.e.EnvironmentController        : Error getting the Environment with name=configuration profiles=application label=dev includeOrigin=false
+
+org.springframework.cloud.config.server.environment.NoSuchLabelException: No such label: dev
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.refresh(JGitEnvironmentRepository.java:313) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.getLocations(JGitEnvironmentRepository.java:262) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.getLocations(MultipleJGitEnvironmentRepository.java:145) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.AbstractScmEnvironmentRepository.findOneInternal(AbstractScmEnvironmentRepository.java:81) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.AbstractScmEnvironmentRepository.findOne(AbstractScmEnvironmentRepository.java:70) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.findOneFromCandidate(MultipleJGitEnvironmentRepository.java:196) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.findOne(MultipleJGitEnvironmentRepository.java:179) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.CompositeEnvironmentRepository.findOne(CompositeEnvironmentRepository.java:83) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.ObservationEnvironmentRepositoryWrapper.lambda$findOne$3(ObservationEnvironmentRepositoryWrapper.java:75) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at io.micrometer.observation.Observation.observe(Observation.java:564) ~[micrometer-observation-1.14.2.jar:1.14.2]
+	at org.springframework.cloud.config.server.environment.ObservationEnvironmentRepositoryWrapper.findOne(ObservationEnvironmentRepositoryWrapper.java:75) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.EnvironmentEncryptorEnvironmentRepository.findOne(EnvironmentEncryptorEnvironmentRepository.java:64) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.EnvironmentController.getEnvironment(EnvironmentController.java:134) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.EnvironmentController.labelled(EnvironmentController.java:121) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:281) ~[spring-core-6.2.1.jar:6.2.1]
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:482) ~[spring-cloud-context-4.2.0.jar:4.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.cloud.config.server.environment.EnvironmentController$$SpringCGLIB$$0.labelled(<generated>) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.34.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.34.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: org.eclipse.jgit.api.errors.RefNotFoundException: Ref dev cannot be resolved
+	at org.eclipse.jgit.api.CheckoutCommand.call(CheckoutCommand.java:222) ~[org.eclipse.jgit-6.10.0.202406032230-r.jar:6.10.0.202406032230-r]
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.checkout(JGitEnvironmentRepository.java:467) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.refresh(JGitEnvironmentRepository.java:306) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	... 68 common frames omitted
+
+2024-12-25T21:28:24.493+05:30  WARN 3376 --- [config-Server] [http-nio-8884-exec-6] o.s.c.c.s.e.EnvironmentController        : Error getting the Environment with name=configurations profiles=application label=dev includeOrigin=false
+
+org.springframework.cloud.config.server.environment.NoSuchLabelException: No such label: dev
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.refresh(JGitEnvironmentRepository.java:313) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.getLocations(JGitEnvironmentRepository.java:262) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.getLocations(MultipleJGitEnvironmentRepository.java:145) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.AbstractScmEnvironmentRepository.findOneInternal(AbstractScmEnvironmentRepository.java:81) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.AbstractScmEnvironmentRepository.findOne(AbstractScmEnvironmentRepository.java:70) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.findOneFromCandidate(MultipleJGitEnvironmentRepository.java:196) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.findOne(MultipleJGitEnvironmentRepository.java:179) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.CompositeEnvironmentRepository.findOne(CompositeEnvironmentRepository.java:83) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.ObservationEnvironmentRepositoryWrapper.lambda$findOne$3(ObservationEnvironmentRepositoryWrapper.java:75) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at io.micrometer.observation.Observation.observe(Observation.java:564) ~[micrometer-observation-1.14.2.jar:1.14.2]
+	at org.springframework.cloud.config.server.environment.ObservationEnvironmentRepositoryWrapper.findOne(ObservationEnvironmentRepositoryWrapper.java:75) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.EnvironmentEncryptorEnvironmentRepository.findOne(EnvironmentEncryptorEnvironmentRepository.java:64) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.EnvironmentController.getEnvironment(EnvironmentController.java:134) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.EnvironmentController.labelled(EnvironmentController.java:121) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:281) ~[spring-core-6.2.1.jar:6.2.1]
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:482) ~[spring-cloud-context-4.2.0.jar:4.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.cloud.config.server.environment.EnvironmentController$$SpringCGLIB$$0.labelled(<generated>) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.34.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.34.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: org.eclipse.jgit.api.errors.RefNotFoundException: Ref dev cannot be resolved
+	at org.eclipse.jgit.api.CheckoutCommand.call(CheckoutCommand.java:222) ~[org.eclipse.jgit-6.10.0.202406032230-r.jar:6.10.0.202406032230-r]
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.checkout(JGitEnvironmentRepository.java:467) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.refresh(JGitEnvironmentRepository.java:306) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	... 68 common frames omitted
+
+2024-12-25T21:29:20.422+05:30  WARN 3376 --- [config-Server] [http-nio-8884-exec-9] o.s.c.c.s.e.EnvironmentController        : Error getting the Environment with name=configuration profiles=application label=default includeOrigin=false
+
+org.springframework.cloud.config.server.environment.NoSuchLabelException: No such label: default
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.refresh(JGitEnvironmentRepository.java:313) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.getLocations(JGitEnvironmentRepository.java:262) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.getLocations(MultipleJGitEnvironmentRepository.java:145) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.AbstractScmEnvironmentRepository.findOneInternal(AbstractScmEnvironmentRepository.java:81) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.AbstractScmEnvironmentRepository.findOne(AbstractScmEnvironmentRepository.java:70) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.findOneFromCandidate(MultipleJGitEnvironmentRepository.java:196) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.findOne(MultipleJGitEnvironmentRepository.java:179) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.CompositeEnvironmentRepository.findOne(CompositeEnvironmentRepository.java:83) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.ObservationEnvironmentRepositoryWrapper.lambda$findOne$3(ObservationEnvironmentRepositoryWrapper.java:75) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at io.micrometer.observation.Observation.observe(Observation.java:564) ~[micrometer-observation-1.14.2.jar:1.14.2]
+	at org.springframework.cloud.config.server.environment.ObservationEnvironmentRepositoryWrapper.findOne(ObservationEnvironmentRepositoryWrapper.java:75) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.EnvironmentEncryptorEnvironmentRepository.findOne(EnvironmentEncryptorEnvironmentRepository.java:64) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.EnvironmentController.getEnvironment(EnvironmentController.java:134) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.EnvironmentController.labelled(EnvironmentController.java:121) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:281) ~[spring-core-6.2.1.jar:6.2.1]
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:482) ~[spring-cloud-context-4.2.0.jar:4.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.cloud.config.server.environment.EnvironmentController$$SpringCGLIB$$0.labelled(<generated>) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.34.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.34.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: org.eclipse.jgit.api.errors.RefNotFoundException: Ref default cannot be resolved
+	at org.eclipse.jgit.api.CheckoutCommand.call(CheckoutCommand.java:222) ~[org.eclipse.jgit-6.10.0.202406032230-r.jar:6.10.0.202406032230-r]
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.checkout(JGitEnvironmentRepository.java:467) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.refresh(JGitEnvironmentRepository.java:306) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	... 68 common frames omitted
+
+2024-12-25T21:29:39.898+05:30  WARN 3376 --- [config-Server] [http-nio-8884-exec-5] o.s.c.c.s.e.EnvironmentController        : Error getting the Environment with name=configuration profiles=application label=dev includeOrigin=false
+
+org.springframework.cloud.config.server.environment.NoSuchLabelException: No such label: dev
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.refresh(JGitEnvironmentRepository.java:313) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.getLocations(JGitEnvironmentRepository.java:262) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.getLocations(MultipleJGitEnvironmentRepository.java:145) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.AbstractScmEnvironmentRepository.findOneInternal(AbstractScmEnvironmentRepository.java:81) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.AbstractScmEnvironmentRepository.findOne(AbstractScmEnvironmentRepository.java:70) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.findOneFromCandidate(MultipleJGitEnvironmentRepository.java:196) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.findOne(MultipleJGitEnvironmentRepository.java:179) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.CompositeEnvironmentRepository.findOne(CompositeEnvironmentRepository.java:83) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.ObservationEnvironmentRepositoryWrapper.lambda$findOne$3(ObservationEnvironmentRepositoryWrapper.java:75) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at io.micrometer.observation.Observation.observe(Observation.java:564) ~[micrometer-observation-1.14.2.jar:1.14.2]
+	at org.springframework.cloud.config.server.environment.ObservationEnvironmentRepositoryWrapper.findOne(ObservationEnvironmentRepositoryWrapper.java:75) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.EnvironmentEncryptorEnvironmentRepository.findOne(EnvironmentEncryptorEnvironmentRepository.java:64) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.EnvironmentController.getEnvironment(EnvironmentController.java:134) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.EnvironmentController.labelled(EnvironmentController.java:121) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:281) ~[spring-core-6.2.1.jar:6.2.1]
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:482) ~[spring-cloud-context-4.2.0.jar:4.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.cloud.config.server.environment.EnvironmentController$$SpringCGLIB$$0.labelled(<generated>) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.34.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.34.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: org.eclipse.jgit.api.errors.RefNotFoundException: Ref dev cannot be resolved
+	at org.eclipse.jgit.api.CheckoutCommand.call(CheckoutCommand.java:222) ~[org.eclipse.jgit-6.10.0.202406032230-r.jar:6.10.0.202406032230-r]
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.checkout(JGitEnvironmentRepository.java:467) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.refresh(JGitEnvironmentRepository.java:306) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	... 68 common frames omitted
+
+2024-12-25T21:29:49.361+05:30  WARN 3376 --- [config-Server] [http-nio-8884-exec-7] o.s.c.c.s.e.EnvironmentController        : Error getting the Environment with name=configuration profiles=application label=dev includeOrigin=false
+
+org.springframework.cloud.config.server.environment.NoSuchLabelException: No such label: dev
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.refresh(JGitEnvironmentRepository.java:313) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.getLocations(JGitEnvironmentRepository.java:262) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.getLocations(MultipleJGitEnvironmentRepository.java:145) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.AbstractScmEnvironmentRepository.findOneInternal(AbstractScmEnvironmentRepository.java:81) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.AbstractScmEnvironmentRepository.findOne(AbstractScmEnvironmentRepository.java:70) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.findOneFromCandidate(MultipleJGitEnvironmentRepository.java:196) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.findOne(MultipleJGitEnvironmentRepository.java:179) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.CompositeEnvironmentRepository.findOne(CompositeEnvironmentRepository.java:83) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.ObservationEnvironmentRepositoryWrapper.lambda$findOne$3(ObservationEnvironmentRepositoryWrapper.java:75) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at io.micrometer.observation.Observation.observe(Observation.java:564) ~[micrometer-observation-1.14.2.jar:1.14.2]
+	at org.springframework.cloud.config.server.environment.ObservationEnvironmentRepositoryWrapper.findOne(ObservationEnvironmentRepositoryWrapper.java:75) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.EnvironmentEncryptorEnvironmentRepository.findOne(EnvironmentEncryptorEnvironmentRepository.java:64) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.EnvironmentController.getEnvironment(EnvironmentController.java:134) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.EnvironmentController.labelled(EnvironmentController.java:121) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:281) ~[spring-core-6.2.1.jar:6.2.1]
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:482) ~[spring-cloud-context-4.2.0.jar:4.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727) ~[spring-aop-6.2.1.jar:6.2.1]
+	at org.springframework.cloud.config.server.environment.EnvironmentController$$SpringCGLIB$$0.labelled(<generated>) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.34.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.34.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.34.jar:10.1.34]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+Caused by: org.eclipse.jgit.api.errors.RefNotFoundException: Ref dev cannot be resolved
+	at org.eclipse.jgit.api.CheckoutCommand.call(CheckoutCommand.java:222) ~[org.eclipse.jgit-6.10.0.202406032230-r.jar:6.10.0.202406032230-r]
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.checkout(JGitEnvironmentRepository.java:467) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.refresh(JGitEnvironmentRepository.java:306) ~[spring-cloud-config-server-4.2.0.jar:4.2.0]
+	... 68 common frames omitted
+
+2024-12-25T21:30:13.097+05:30  INFO 3376 --- [config-Server] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application CONFIG-SERVER with eureka with status DOWN
+2024-12-25T21:30:13.099+05:30  INFO 3376 --- [config-Server] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1735142413099, current=DOWN, previous=UP]
+2024-12-25T21:30:13.099+05:30  INFO 3376 --- [config-Server] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CONFIG-SERVER/Shreyansh:config-Server:8884: registering service...
+2024-12-25T21:30:13.101+05:30  INFO 3376 --- [config-Server] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-25T21:30:13.103+05:30  WARN 3376 --- [config-Server] [Thread-3] .c.s.e.MultipleJGitEnvironmentRepository : Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\ASUS\AppData\Local\Temp\config-repo-15901316640249025023\.git\objects\pack\pack-9673c7da1612d8f43da95ec3265532ea34163ca5.idx
+2024-12-25T21:30:13.105+05:30  INFO 3376 --- [config-Server] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-25T21:30:13.109+05:30  INFO 3376 --- [config-Server] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CONFIG-SERVER/Shreyansh:config-Server:8884 - registration status: 204
+2024-12-25T21:30:13.111+05:30  INFO 3376 --- [config-Server] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-12-25T21:30:16.118+05:30  INFO 3376 --- [config-Server] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-12-25T21:30:16.136+05:30  INFO 3376 --- [config-Server] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CONFIG-SERVER/Shreyansh:config-Server:8884 - deregister  status: 200
+2024-12-25T21:30:16.137+05:30  INFO 3376 --- [config-Server] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2024-12-25T21:30:18.532+05:30  INFO 10424 --- [config-Server] [main] c.l.c.ConfigServerApplication            : Starting ConfigServerApplication using Java 22 with PID 10424 (D:\code\microService\configServer\target\classes started by Shreyansh in D:\code\microService\userservice)
+2024-12-25T21:30:18.534+05:30  INFO 10424 --- [config-Server] [main] c.l.c.ConfigServerApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-25T21:30:19.095+05:30  INFO 10424 --- [config-Server] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=203e7980-dc78-32b5-a8a4-7bc814dc62e1
+2024-12-25T21:30:19.261+05:30  INFO 10424 --- [config-Server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8884 (http)
+2024-12-25T21:30:19.270+05:30  INFO 10424 --- [config-Server] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-25T21:30:19.270+05:30  INFO 10424 --- [config-Server] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-25T21:30:19.310+05:30  INFO 10424 --- [config-Server] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-25T21:30:19.311+05:30  INFO 10424 --- [config-Server] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 741 ms
+2024-12-25T21:30:19.740+05:30  INFO 10424 --- [config-Server] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-12-25T21:30:22.191+05:30  WARN 10424 --- [config-Server] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-12-25T21:30:22.224+05:30  INFO 10424 --- [config-Server] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-12-25T21:30:22.240+05:30  INFO 10424 --- [config-Server] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-12-25T21:30:22.243+05:30  INFO 10424 --- [config-Server] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-25T21:30:22.249+05:30  INFO 10424 --- [config-Server] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-12-25T21:30:22.249+05:30  INFO 10424 --- [config-Server] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-12-25T21:30:22.249+05:30  INFO 10424 --- [config-Server] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-12-25T21:30:22.249+05:30  INFO 10424 --- [config-Server] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-12-25T21:30:22.249+05:30  INFO 10424 --- [config-Server] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-12-25T21:30:22.249+05:30  INFO 10424 --- [config-Server] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-12-25T21:30:22.249+05:30  INFO 10424 --- [config-Server] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-12-25T21:30:22.448+05:30  INFO 10424 --- [config-Server] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-12-25T21:30:22.450+05:30  INFO 10424 --- [config-Server] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-12-25T21:30:22.451+05:30  INFO 10424 --- [config-Server] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-12-25T21:30:22.453+05:30  INFO 10424 --- [config-Server] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1735142422452 with initial instances count: 5
+2024-12-25T21:30:22.455+05:30  INFO 10424 --- [config-Server] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CONFIG-SERVER with eureka with status UP
+2024-12-25T21:30:22.455+05:30  INFO 10424 --- [config-Server] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1735142422455, current=UP, previous=STARTING]
+2024-12-25T21:30:22.456+05:30  INFO 10424 --- [config-Server] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CONFIG-SERVER/Shreyansh:config-Server:8884: registering service...
+2024-12-25T21:30:22.472+05:30  INFO 10424 --- [config-Server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8884 (http) with context path '/'
+2024-12-25T21:30:22.473+05:30  INFO 10424 --- [config-Server] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8884
+2024-12-25T21:30:22.483+05:30  INFO 10424 --- [config-Server] [main] c.l.c.ConfigServerApplication            : Started ConfigServerApplication in 4.314 seconds (process running for 4.993)
+2024-12-25T21:30:22.488+05:30  INFO 10424 --- [config-Server] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CONFIG-SERVER/Shreyansh:config-Server:8884 - registration status: 204
+2024-12-25T21:57:43.911+05:30  INFO 10424 --- [config-Server] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application CONFIG-SERVER with eureka with status DOWN
+2024-12-25T21:57:43.912+05:30  INFO 10424 --- [config-Server] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1735144063912, current=DOWN, previous=UP]
+2024-12-25T21:57:43.913+05:30  INFO 10424 --- [config-Server] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CONFIG-SERVER/Shreyansh:config-Server:8884: registering service...
+2024-12-25T21:57:43.917+05:30  INFO 10424 --- [config-Server] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-25T21:57:43.924+05:30  WARN 10424 --- [config-Server] [Thread-3] .c.s.e.MultipleJGitEnvironmentRepository : Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\ASUS\AppData\Local\Temp\config-repo-660033390270446437\.git\objects\pack\pack-9673c7da1612d8f43da95ec3265532ea34163ca5.idx
+2024-12-25T21:57:43.940+05:30  INFO 10424 --- [config-Server] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CONFIG-SERVER/Shreyansh:config-Server:8884 - registration status: 204
+2024-12-25T21:57:43.944+05:30  INFO 10424 --- [config-Server] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-25T21:57:43.972+05:30  INFO 10424 --- [config-Server] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-12-25T21:57:46.976+05:30  INFO 10424 --- [config-Server] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-12-25T21:57:46.983+05:30  INFO 10424 --- [config-Server] [SpringApplicationShutdownHook] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/CONFIG-SERVER/Shreyansh:config-Server:8884": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/CONFIG-SERVER/Shreyansh:config-Server:8884": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:100)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:919)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:900)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:415)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:239)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:202)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:195)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:211)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:668)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:625)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1368)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:584)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1361)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1219)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1126)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:147)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:116)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:752)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:216)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:150)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:174)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:117)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$3(RestTemplateTransportClientFactory.java:141)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
+	... 37 more
+
+2024-12-25T21:57:46.984+05:30  WARN 10424 --- [config-Server] [SpringApplicationShutdownHook] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/CONFIG-SERVER/Shreyansh:config-Server:8884": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+2024-12-25T21:57:46.990+05:30  INFO 10424 --- [config-Server] [SpringApplicationShutdownHook] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on DELETE request for "http://localhost:8761/eureka/apps/CONFIG-SERVER/Shreyansh:config-Server:8884": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on DELETE request for "http://localhost:8761/eureka/apps/CONFIG-SERVER/Shreyansh:config-Server:8884": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.cancel(RestTemplateEurekaHttpClient.java:100)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:919)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:900)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:415)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:239)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:202)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:195)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:389)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:211)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:668)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:625)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1368)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:584)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1361)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1219)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1126)
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:147)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:116)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:752)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:216)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:150)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:174)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:117)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$3(RestTemplateTransportClientFactory.java:141)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
+	... 38 more
+
+2024-12-25T21:57:46.990+05:30  WARN 10424 --- [config-Server] [SpringApplicationShutdownHook] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on DELETE request for "http://localhost:8761/eureka/apps/CONFIG-SERVER/Shreyansh:config-Server:8884": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+2024-12-25T21:57:46.990+05:30 ERROR 10424 --- [config-Server] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CONFIG-SERVER/Shreyansh:config-Server:8884 - de-registration failedCannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:919) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:900) ~[eureka-client-2.0.4.jar:2.0.4]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:415) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:239) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:202) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:195) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:389) ~[spring-cloud-context-4.2.0.jar:4.2.0]
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:136) ~[spring-cloud-context-4.2.0.jar:4.2.0]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:211) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:668) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:625) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1368) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:584) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1361) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1219) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1180) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:174) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1126) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.boot.SpringApplicationShutdownHook.closeAndWait(SpringApplicationShutdownHook.java:147) ~[spring-boot-3.4.1.jar:3.4.1]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.boot.SpringApplicationShutdownHook.run(SpringApplicationShutdownHook.java:116) ~[spring-boot-3.4.1.jar:3.4.1]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+
+2024-12-25T21:57:46.994+05:30  INFO 10424 --- [config-Server] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
