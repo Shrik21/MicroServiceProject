@@ -1,23 +1,23 @@
-2024-12-24T22:15:15.686+05:30  INFO 21076 --- [hotel-service] [main] c.h.h.HotelserviceApplication            : Starting HotelserviceApplication using Java 22 with PID 21076 (D:\code\microService\hotelservice\target\classes started by Shreyansh in D:\code\microService\hotelservice)
-2024-12-24T22:15:15.697+05:30  INFO 21076 --- [hotel-service] [main] c.h.h.HotelserviceApplication            : No active profile set, falling back to 1 default profile: "default"
-2024-12-24T22:15:16.241+05:30  INFO 21076 --- [hotel-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-24T22:15:16.343+05:30  INFO 21076 --- [hotel-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96 ms. Found 1 JPA repository interface.
-2024-12-24T22:15:16.492+05:30  INFO 21076 --- [hotel-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=12fc4d7c-a6fd-323c-9d4a-9adb77164c09
-2024-12-24T22:15:16.728+05:30  INFO 21076 --- [hotel-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
-2024-12-24T22:15:16.738+05:30  INFO 21076 --- [hotel-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-24T22:15:16.738+05:30  INFO 21076 --- [hotel-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-12-24T22:15:16.780+05:30  INFO 21076 --- [hotel-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-12-24T22:15:16.781+05:30  INFO 21076 --- [hotel-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1033 ms
-2024-12-24T22:15:16.895+05:30  INFO 21076 --- [hotel-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-24T22:15:16.956+05:30  INFO 21076 --- [hotel-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
-2024-12-24T22:15:16.990+05:30  INFO 21076 --- [hotel-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-12-24T22:15:17.222+05:30  INFO 21076 --- [hotel-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-12-24T22:15:17.247+05:30  INFO 21076 --- [hotel-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-12-24T22:15:17.371+05:30  INFO 21076 --- [hotel-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ba0018e
-2024-12-24T22:15:17.373+05:30  INFO 21076 --- [hotel-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-12-24T22:15:17.408+05:30  WARN 21076 --- [hotel-service] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-12-24T22:15:17.409+05:30  WARN 21076 --- [hotel-service] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2024-12-24T22:15:17.426+05:30  INFO 21076 --- [hotel-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2024-12-25T12:07:44.551+05:30  INFO 16156 --- [hotel-service] [main] c.h.h.HotelserviceApplication            : Starting HotelserviceApplication using Java 22 with PID 16156 (D:\code\microService\hotelservice\target\classes started by Shreyansh in D:\code\microService\hotelservice)
+2024-12-25T12:07:44.570+05:30  INFO 16156 --- [hotel-service] [main] c.h.h.HotelserviceApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-25T12:07:45.826+05:30  INFO 16156 --- [hotel-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-25T12:07:46.092+05:30  INFO 16156 --- [hotel-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 246 ms. Found 1 JPA repository interface.
+2024-12-25T12:07:46.559+05:30  INFO 16156 --- [hotel-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=12fc4d7c-a6fd-323c-9d4a-9adb77164c09
+2024-12-25T12:07:47.236+05:30  INFO 16156 --- [hotel-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-12-25T12:07:47.263+05:30  INFO 16156 --- [hotel-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-25T12:07:47.263+05:30  INFO 16156 --- [hotel-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-25T12:07:47.366+05:30  INFO 16156 --- [hotel-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-25T12:07:47.367+05:30  INFO 16156 --- [hotel-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2713 ms
+2024-12-25T12:07:47.654+05:30  INFO 16156 --- [hotel-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-25T12:07:47.786+05:30  INFO 16156 --- [hotel-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-25T12:07:47.852+05:30  INFO 16156 --- [hotel-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-25T12:07:48.458+05:30  INFO 16156 --- [hotel-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-25T12:07:48.520+05:30  INFO 16156 --- [hotel-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-25T12:07:48.829+05:30  INFO 16156 --- [hotel-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7976e536
+2024-12-25T12:07:48.835+05:30  INFO 16156 --- [hotel-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-25T12:07:48.925+05:30  WARN 16156 --- [hotel-service] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-25T12:07:48.927+05:30  WARN 16156 --- [hotel-service] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-12-25T12:07:48.962+05:30  INFO 16156 --- [hotel-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0
@@ -25,22 +25,22 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2024-12-24T22:15:18.011+05:30  INFO 21076 --- [hotel-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-12-24T22:15:18.048+05:30  INFO 21076 --- [hotel-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-12-24T22:15:18.216+05:30  WARN 21076 --- [hotel-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-12-24T22:15:18.564+05:30  INFO 21076 --- [hotel-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2024-12-24T22:15:18.589+05:30  WARN 21076 --- [hotel-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2024-12-24T22:15:18.620+05:30  INFO 21076 --- [hotel-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2024-12-24T22:15:18.637+05:30  INFO 21076 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2024-12-24T22:15:18.639+05:30  INFO 21076 --- [hotel-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-12-24T22:15:18.645+05:30  INFO 21076 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2024-12-24T22:15:18.645+05:30  INFO 21076 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2024-12-24T22:15:18.645+05:30  INFO 21076 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2024-12-24T22:15:18.645+05:30  INFO 21076 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2024-12-24T22:15:18.646+05:30  INFO 21076 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2024-12-24T22:15:18.646+05:30  INFO 21076 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2024-12-24T22:15:18.646+05:30  INFO 21076 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2024-12-24T22:15:18.893+05:30  INFO 21076 --- [hotel-service] [main] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+2024-12-25T12:07:50.489+05:30  INFO 16156 --- [hotel-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-25T12:07:50.600+05:30  INFO 16156 --- [hotel-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-25T12:07:51.106+05:30  WARN 16156 --- [hotel-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-25T12:07:52.122+05:30  INFO 16156 --- [hotel-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-12-25T12:07:52.199+05:30  WARN 16156 --- [hotel-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-12-25T12:07:52.293+05:30  INFO 16156 --- [hotel-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-12-25T12:07:52.350+05:30  INFO 16156 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-12-25T12:07:52.358+05:30  INFO 16156 --- [hotel-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-25T12:07:52.386+05:30  INFO 16156 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-12-25T12:07:52.387+05:30  INFO 16156 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-12-25T12:07:52.388+05:30  INFO 16156 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-12-25T12:07:52.388+05:30  INFO 16156 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-12-25T12:07:52.389+05:30  INFO 16156 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-12-25T12:07:52.389+05:30  INFO 16156 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-12-25T12:07:52.389+05:30  INFO 16156 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-12-25T12:07:53.086+05:30  INFO 16156 --- [hotel-service] [main] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
 	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
 	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
@@ -144,8 +144,8 @@ Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http:
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
 	... 64 more
 
-2024-12-24T22:15:18.894+05:30  WARN 21076 --- [hotel-service] [main] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
-2024-12-24T22:15:18.894+05:30  INFO 21076 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+2024-12-25T12:07:53.087+05:30  WARN 16156 --- [hotel-service] [main] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+2024-12-25T12:07:53.088+05:30  INFO 16156 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
@@ -202,19 +202,19 @@ Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http:
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
 	at com.hotelservice.hotelservice.HotelserviceApplication.main(HotelserviceApplication.java:12)
 
-2024-12-24T22:15:18.894+05:30  INFO 21076 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Initial registry fetch from primary servers failed
-2024-12-24T22:15:18.894+05:30  WARN 21076 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Using default backup registry implementation which does not do anything.
-2024-12-24T22:15:18.894+05:30  INFO 21076 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Initial registry fetch from backup servers failed
-2024-12-24T22:15:18.896+05:30  INFO 21076 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2024-12-24T22:15:18.897+05:30  INFO 21076 --- [hotel-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2024-12-24T22:15:18.898+05:30  INFO 21076 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1735058718898 with initial instances count: 0
-2024-12-24T22:15:18.901+05:30  INFO 21076 --- [hotel-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application HOTEL-SERVICE with eureka with status UP
-2024-12-24T22:15:18.901+05:30  INFO 21076 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1735058718901, current=UP, previous=STARTING]
-2024-12-24T22:15:18.902+05:30  INFO 21076 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081: registering service...
-2024-12-24T22:15:18.917+05:30  INFO 21076 --- [hotel-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
-2024-12-24T22:15:18.918+05:30  INFO 21076 --- [hotel-service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
-2024-12-24T22:15:18.925+05:30  INFO 21076 --- [hotel-service] [main] c.h.h.HotelserviceApplication            : Started HotelserviceApplication in 3.602 seconds (process running for 4.548)
-2024-12-24T22:15:18.932+05:30  INFO 21076 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/HOTEL-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/HOTEL-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+2024-12-25T12:07:53.089+05:30  INFO 16156 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Initial registry fetch from primary servers failed
+2024-12-25T12:07:53.089+05:30  WARN 16156 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Using default backup registry implementation which does not do anything.
+2024-12-25T12:07:53.090+05:30  INFO 16156 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Initial registry fetch from backup servers failed
+2024-12-25T12:07:53.091+05:30  INFO 16156 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-12-25T12:07:53.095+05:30  INFO 16156 --- [hotel-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-12-25T12:07:53.099+05:30  INFO 16156 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1735108673098 with initial instances count: 0
+2024-12-25T12:07:53.108+05:30  INFO 16156 --- [hotel-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application HOTEL-SERVICE with eureka with status UP
+2024-12-25T12:07:53.110+05:30  INFO 16156 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1735108673109, current=UP, previous=STARTING]
+2024-12-25T12:07:53.113+05:30  INFO 16156 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081: registering service...
+2024-12-25T12:07:53.144+05:30  INFO 16156 --- [hotel-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-12-25T12:07:53.146+05:30  INFO 16156 --- [hotel-service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2024-12-25T12:07:53.166+05:30  INFO 16156 --- [hotel-service] [main] c.h.h.HotelserviceApplication            : Started HotelserviceApplication in 9.409 seconds (process running for 10.777)
+2024-12-25T12:07:53.188+05:30  INFO 16156 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/HOTEL-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/HOTEL-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
 	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
 	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
@@ -276,8 +276,8 @@ Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http:
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
 	... 22 more
 
-2024-12-24T22:15:18.933+05:30  WARN 21076 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/HOTEL-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
-2024-12-24T22:15:18.933+05:30  WARN 21076 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081 - registration failed Cannot execute request on any known server
+2024-12-25T12:07:53.188+05:30  WARN 16156 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/HOTEL-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+2024-12-25T12:07:53.188+05:30  WARN 16156 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081 - registration failed Cannot execute request on any known server
 
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.4.jar:2.0.4]
@@ -295,7 +295,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
 	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
 
-2024-12-24T22:15:18.935+05:30  WARN 21076 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.discovery.InstanceInfoReplicator     : There was a problem with the instance info replicator
+2024-12-25T12:07:53.193+05:30  WARN 16156 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.discovery.InstanceInfoReplicator     : There was a problem with the instance info replicator
 
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.4.jar:2.0.4]
@@ -313,13 +313,258 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
 	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
 
-2024-12-24T22:15:23.447+05:30  INFO 21076 --- [hotel-service] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application HOTEL-SERVICE with eureka with status DOWN
-2024-12-24T22:15:23.448+05:30  INFO 21076 --- [hotel-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1735058723448, current=DOWN, previous=UP]
-2024-12-24T22:15:23.448+05:30  INFO 21076 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081: registering service...
-2024-12-24T22:15:23.450+05:30  INFO 21076 --- [hotel-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-12-24T22:15:23.455+05:30  INFO 21076 --- [hotel-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-12-24T22:15:23.460+05:30  INFO 21076 --- [hotel-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-12-24T22:15:23.461+05:30  INFO 21076 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/HOTEL-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/HOTEL-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+2024-12-25T12:08:23.103+05:30  INFO 16156 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-12-25T12:08:23.103+05:30  INFO 16156 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-12-25T12:08:23.104+05:30  INFO 16156 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-12-25T12:08:23.104+05:30  INFO 16156 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-12-25T12:08:23.104+05:30  INFO 16156 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-12-25T12:08:23.104+05:30  INFO 16156 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-12-25T12:08:23.104+05:30  INFO 16156 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-12-25T12:08:23.207+05:30  INFO 16156 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-12-25T12:08:23.209+05:30  INFO 16156 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081: registering service...
+2024-12-25T12:08:23.230+05:30  INFO 16156 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081 - registration status: 204
+2024-12-25T12:08:23.243+05:30  INFO 16156 --- [hotel-service] [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081 - Re-registering apps/HOTEL-SERVICE
+2024-12-25T12:08:23.243+05:30  INFO 16156 --- [hotel-service] [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081: registering service...
+2024-12-25T12:08:23.258+05:30  INFO 16156 --- [hotel-service] [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081 - registration status: 204
+2024-12-25T12:08:53.211+05:30  INFO 16156 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-12-25T12:08:53.211+05:30  INFO 16156 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-12-25T12:08:53.211+05:30  INFO 16156 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-12-25T12:08:53.211+05:30  INFO 16156 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-12-25T12:08:53.211+05:30  INFO 16156 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-12-25T12:08:53.211+05:30  INFO 16156 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2024-12-25T12:08:53.211+05:30  INFO 16156 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-12-25T12:08:53.254+05:30  INFO 16156 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-12-25T12:09:20.692+05:30  INFO 16156 --- [hotel-service] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application HOTEL-SERVICE with eureka with status DOWN
+2024-12-25T12:09:20.693+05:30  INFO 16156 --- [hotel-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1735108760693, current=DOWN, previous=UP]
+2024-12-25T12:09:20.693+05:30  INFO 16156 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081: registering service...
+2024-12-25T12:09:20.702+05:30  INFO 16156 --- [hotel-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-25T12:09:20.712+05:30  INFO 16156 --- [hotel-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-25T12:09:20.723+05:30  INFO 16156 --- [hotel-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-25T12:09:20.723+05:30  INFO 16156 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081 - registration status: 204
+2024-12-25T12:09:20.729+05:30  INFO 16156 --- [hotel-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-25T12:09:20.738+05:30  INFO 16156 --- [hotel-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-25T12:09:20.739+05:30  INFO 16156 --- [hotel-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-12-25T12:09:23.755+05:30  INFO 16156 --- [hotel-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-12-25T12:09:23.756+05:30  WARN 16156 --- [hotel-service] [DiscoveryClient-%d] c.netflix.discovery.TimedSupervisorTask  : task supervisor shutting down, can't accept the task
+2024-12-25T12:09:23.767+05:30  INFO 16156 --- [hotel-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081 - deregister  status: 200
+2024-12-25T12:09:23.768+05:30  INFO 16156 --- [hotel-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2024-12-25T12:26:28.771+05:30  INFO 1308 --- [hotel-service] [main] c.h.h.HotelserviceApplication            : Starting HotelserviceApplication using Java 21.0.1 with PID 1308 (D:\code\microService\hotelservice\target\classes started by Shreyansh in D:\code\microService\APIGateway)
+2024-12-25T12:26:28.775+05:30  INFO 1308 --- [hotel-service] [main] c.h.h.HotelserviceApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-25T12:26:29.866+05:30  INFO 1308 --- [hotel-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-25T12:26:30.125+05:30  INFO 1308 --- [hotel-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 245 ms. Found 1 JPA repository interface.
+2024-12-25T12:26:30.466+05:30  INFO 1308 --- [hotel-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=12fc4d7c-a6fd-323c-9d4a-9adb77164c09
+2024-12-25T12:26:31.094+05:30  INFO 1308 --- [hotel-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-12-25T12:26:31.120+05:30  INFO 1308 --- [hotel-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-25T12:26:31.121+05:30  INFO 1308 --- [hotel-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-25T12:26:31.226+05:30  INFO 1308 --- [hotel-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-25T12:26:31.227+05:30  INFO 1308 --- [hotel-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2386 ms
+2024-12-25T12:26:31.494+05:30  INFO 1308 --- [hotel-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-25T12:26:31.582+05:30  INFO 1308 --- [hotel-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-25T12:26:31.652+05:30  INFO 1308 --- [hotel-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-25T12:26:32.086+05:30  INFO 1308 --- [hotel-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-25T12:26:32.141+05:30  INFO 1308 --- [hotel-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-25T12:26:32.398+05:30  INFO 1308 --- [hotel-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@380e33c2
+2024-12-25T12:26:32.402+05:30  INFO 1308 --- [hotel-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-25T12:26:32.471+05:30  WARN 1308 --- [hotel-service] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-25T12:26:32.473+05:30  WARN 1308 --- [hotel-service] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-12-25T12:26:32.505+05:30  INFO 1308 --- [hotel-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-25T12:26:33.651+05:30  INFO 1308 --- [hotel-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-25T12:26:33.722+05:30  INFO 1308 --- [hotel-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-25T12:26:34.113+05:30  WARN 1308 --- [hotel-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-25T12:26:34.871+05:30  INFO 1308 --- [hotel-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-12-25T12:26:34.923+05:30  WARN 1308 --- [hotel-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-12-25T12:26:35.000+05:30  INFO 1308 --- [hotel-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-12-25T12:26:35.036+05:30  INFO 1308 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-12-25T12:26:35.043+05:30  INFO 1308 --- [hotel-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-25T12:26:35.055+05:30  INFO 1308 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-12-25T12:26:35.056+05:30  INFO 1308 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-12-25T12:26:35.056+05:30  INFO 1308 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-12-25T12:26:35.056+05:30  INFO 1308 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-12-25T12:26:35.057+05:30  INFO 1308 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-12-25T12:26:35.057+05:30  INFO 1308 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-12-25T12:26:35.057+05:30  INFO 1308 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-12-25T12:26:35.606+05:30  INFO 1308 --- [hotel-service] [main] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:174)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplications(RestTemplateEurekaHttpClient.java:162)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1046)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:961)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:410)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:245)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:240)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:68)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:324)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:88)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:168)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1351)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1181)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:375)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:375)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:179)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:372)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getTargetObject(EurekaRegistration.java:128)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient(EurekaRegistration.java:116)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:281)
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:482)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$SpringCGLIB$$0.getEurekaClient(<generated>)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:83)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:66)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:89)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:323)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:510)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:295)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:240)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:1006)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:630)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.hotelservice.hotelservice.HotelserviceApplication.main(HotelserviceApplication.java:12)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:216)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:150)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:174)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:117)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$3(RestTemplateTransportClientFactory.java:141)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
+	... 64 more
+
+2024-12-25T12:26:35.607+05:30  WARN 1308 --- [hotel-service] [main] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2024-12-25T12:26:35.608+05:30  INFO 1308 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1046)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:961)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:410)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:245)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:240)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:68)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:324)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:88)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:168)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1351)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1181)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:375)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:375)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:179)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:372)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getTargetObject(EurekaRegistration.java:128)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration.getEurekaClient(EurekaRegistration.java:116)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:281)
+	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:482)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$SpringCGLIB$$0.getEurekaClient(<generated>)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:83)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:66)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:89)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:323)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:510)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:295)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:240)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:1006)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:630)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.hotelservice.hotelservice.HotelserviceApplication.main(HotelserviceApplication.java:12)
+
+2024-12-25T12:26:35.608+05:30  INFO 1308 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Initial registry fetch from primary servers failed
+2024-12-25T12:26:35.608+05:30  WARN 1308 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Using default backup registry implementation which does not do anything.
+2024-12-25T12:26:35.609+05:30  INFO 1308 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Initial registry fetch from backup servers failed
+2024-12-25T12:26:35.610+05:30  INFO 1308 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-12-25T12:26:35.612+05:30  INFO 1308 --- [hotel-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-12-25T12:26:35.617+05:30  INFO 1308 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1735109795614 with initial instances count: 0
+2024-12-25T12:26:35.623+05:30  INFO 1308 --- [hotel-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application HOTEL-SERVICE with eureka with status UP
+2024-12-25T12:26:35.624+05:30  INFO 1308 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1735109795624, current=UP, previous=STARTING]
+2024-12-25T12:26:35.626+05:30  INFO 1308 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081: registering service...
+2024-12-25T12:26:35.656+05:30  INFO 1308 --- [hotel-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-12-25T12:26:35.658+05:30  INFO 1308 --- [hotel-service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2024-12-25T12:26:35.677+05:30  INFO 1308 --- [hotel-service] [main] c.h.h.HotelserviceApplication            : Started HotelserviceApplication in 7.615 seconds (process running for 9.0)
+2024-12-25T12:26:35.704+05:30  INFO 1308 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/HOTEL-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/HOTEL-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
 	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
 	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
@@ -343,14 +588,14 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1570)
-Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
 	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
-	at java.base/java.net.Socket.connect(Socket.java:752)
+	at java.base/java.net.Socket.connect(Socket.java:751)
 	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:216)
 	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490)
 	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
@@ -381,8 +626,8 @@ Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http:
 	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
 	... 22 more
 
-2024-12-24T22:15:23.461+05:30  WARN 21076 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/HOTEL-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: getsockopt
-2024-12-24T22:15:23.462+05:30  WARN 21076 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081 - registration failed Cannot execute request on any known server
+2024-12-25T12:26:35.705+05:30  WARN 1308 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/HOTEL-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2024-12-25T12:26:35.705+05:30  WARN 1308 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081 - registration failed Cannot execute request on any known server
 
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.4.jar:2.0.4]
@@ -398,9 +643,9 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
-	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2024-12-24T22:15:23.462+05:30  WARN 21076 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.discovery.InstanceInfoReplicator     : There was a problem with the instance info replicator
+2024-12-25T12:26:35.709+05:30  WARN 1308 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.discovery.InstanceInfoReplicator     : There was a problem with the instance info replicator
 
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.4.jar:2.0.4]
@@ -416,34 +661,136 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
-	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
 
-2024-12-24T22:15:23.464+05:30  INFO 21076 --- [hotel-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-12-24T22:15:23.473+05:30  INFO 21076 --- [hotel-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-12-24T22:15:23.474+05:30  INFO 21076 --- [hotel-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2024-12-24T22:15:26.482+05:30  INFO 21076 --- [hotel-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
-2024-12-24T22:15:26.655+05:30  INFO 21076 --- [hotel-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081 - deregister  status: 404
-2024-12-24T22:15:26.655+05:30  INFO 21076 --- [hotel-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
-2024-12-24T22:15:28.590+05:30  INFO 11616 --- [hotel-service] [main] c.h.h.HotelserviceApplication            : Starting HotelserviceApplication using Java 22 with PID 11616 (D:\code\microService\hotelservice\target\classes started by Shreyansh in D:\code\microService\hotelservice)
-2024-12-24T22:15:28.592+05:30  INFO 11616 --- [hotel-service] [main] c.h.h.HotelserviceApplication            : No active profile set, falling back to 1 default profile: "default"
-2024-12-24T22:15:29.073+05:30  INFO 11616 --- [hotel-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-24T22:15:29.174+05:30  INFO 11616 --- [hotel-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94 ms. Found 1 JPA repository interface.
-2024-12-24T22:15:29.319+05:30  INFO 11616 --- [hotel-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=12fc4d7c-a6fd-323c-9d4a-9adb77164c09
-2024-12-24T22:15:29.541+05:30  INFO 11616 --- [hotel-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
-2024-12-24T22:15:29.550+05:30  INFO 11616 --- [hotel-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-24T22:15:29.550+05:30  INFO 11616 --- [hotel-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-12-24T22:15:29.592+05:30  INFO 11616 --- [hotel-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-12-24T22:15:29.593+05:30  INFO 11616 --- [hotel-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 968 ms
-2024-12-24T22:15:29.689+05:30  INFO 11616 --- [hotel-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-24T22:15:29.726+05:30  INFO 11616 --- [hotel-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
-2024-12-24T22:15:29.749+05:30  INFO 11616 --- [hotel-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-12-24T22:15:29.956+05:30  INFO 11616 --- [hotel-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-12-24T22:15:29.978+05:30  INFO 11616 --- [hotel-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-12-24T22:15:30.089+05:30  INFO 11616 --- [hotel-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39e7e040
-2024-12-24T22:15:30.091+05:30  INFO 11616 --- [hotel-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-12-24T22:15:30.124+05:30  WARN 11616 --- [hotel-service] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-12-24T22:15:30.125+05:30  WARN 11616 --- [hotel-service] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2024-12-24T22:15:30.137+05:30  INFO 11616 --- [hotel-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2024-12-25T12:26:40.234+05:30  INFO 1308 --- [hotel-service] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application HOTEL-SERVICE with eureka with status DOWN
+2024-12-25T12:26:40.235+05:30  INFO 1308 --- [hotel-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1735109800235, current=DOWN, previous=UP]
+2024-12-25T12:26:40.235+05:30  INFO 1308 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081: registering service...
+2024-12-25T12:26:40.239+05:30  INFO 1308 --- [hotel-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-25T12:26:40.248+05:30  INFO 1308 --- [hotel-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-25T12:26:40.253+05:30  INFO 1308 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on POST request for "http://localhost:8761/eureka/apps/HOTEL-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8761/eureka/apps/HOTEL-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.register(RestTemplateEurekaHttpClient.java:87)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125)
+	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:216)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:490)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:192)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:150)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:113)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:174)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:117)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$3(RestTemplateTransportClientFactory.java:141)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
+	... 22 more
+
+2024-12-25T12:26:40.253+05:30  WARN 1308 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/HOTEL-SERVICE": Connect to http://localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2024-12-25T12:26:40.253+05:30  WARN 1308 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081 - registration failed Cannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105) ~[eureka-client-2.0.4.jar:2.0.4]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-12-25T12:26:40.254+05:30  WARN 1308 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] c.n.discovery.InstanceInfoReplicator     : There was a problem with the instance info replicator
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:828) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:125) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.InstanceInfoReplicator$2.run(InstanceInfoReplicator.java:105) ~[eureka-client-2.0.4.jar:2.0.4]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-12-25T12:26:40.257+05:30  INFO 1308 --- [hotel-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-25T12:26:40.261+05:30  INFO 1308 --- [hotel-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-25T12:26:40.272+05:30  INFO 1308 --- [hotel-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-25T12:26:40.273+05:30  INFO 1308 --- [hotel-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-12-25T12:29:23.773+05:30  INFO 15108 --- [hotel-service] [main] c.h.h.HotelserviceApplication            : Starting HotelserviceApplication using Java 21.0.1 with PID 15108 (D:\code\microService\hotelservice\target\classes started by Shreyansh in D:\code\microService\APIGateway)
+2024-12-25T12:29:23.777+05:30  INFO 15108 --- [hotel-service] [main] c.h.h.HotelserviceApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-25T12:29:24.854+05:30  INFO 15108 --- [hotel-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-25T12:29:25.095+05:30  INFO 15108 --- [hotel-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 225 ms. Found 1 JPA repository interface.
+2024-12-25T12:29:25.473+05:30  INFO 15108 --- [hotel-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=12fc4d7c-a6fd-323c-9d4a-9adb77164c09
+2024-12-25T12:29:26.012+05:30  INFO 15108 --- [hotel-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-12-25T12:29:26.033+05:30  INFO 15108 --- [hotel-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-25T12:29:26.034+05:30  INFO 15108 --- [hotel-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-25T12:29:26.135+05:30  INFO 15108 --- [hotel-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-25T12:29:26.136+05:30  INFO 15108 --- [hotel-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2292 ms
+2024-12-25T12:29:26.378+05:30  INFO 15108 --- [hotel-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-25T12:29:26.459+05:30  INFO 15108 --- [hotel-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-25T12:29:26.509+05:30  INFO 15108 --- [hotel-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-25T12:29:26.952+05:30  INFO 15108 --- [hotel-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-25T12:29:26.999+05:30  INFO 15108 --- [hotel-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-25T12:29:27.246+05:30  INFO 15108 --- [hotel-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54556723
+2024-12-25T12:29:27.249+05:30  INFO 15108 --- [hotel-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-25T12:29:27.316+05:30  WARN 15108 --- [hotel-service] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-25T12:29:27.318+05:30  WARN 15108 --- [hotel-service] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-12-25T12:29:27.344+05:30  INFO 15108 --- [hotel-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0
@@ -451,103 +798,37 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2024-12-24T22:15:30.661+05:30  INFO 11616 --- [hotel-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-12-24T22:15:30.693+05:30  INFO 11616 --- [hotel-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-12-24T22:15:30.857+05:30  WARN 11616 --- [hotel-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-12-24T22:15:31.194+05:30  INFO 11616 --- [hotel-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2024-12-24T22:15:31.218+05:30  WARN 11616 --- [hotel-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2024-12-24T22:15:31.250+05:30  INFO 11616 --- [hotel-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2024-12-24T22:15:31.267+05:30  INFO 11616 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2024-12-24T22:15:31.270+05:30  INFO 11616 --- [hotel-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-12-24T22:15:31.276+05:30  INFO 11616 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2024-12-24T22:15:31.276+05:30  INFO 11616 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2024-12-24T22:15:31.276+05:30  INFO 11616 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2024-12-24T22:15:31.276+05:30  INFO 11616 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2024-12-24T22:15:31.277+05:30  INFO 11616 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2024-12-24T22:15:31.277+05:30  INFO 11616 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2024-12-24T22:15:31.277+05:30  INFO 11616 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2024-12-24T22:15:31.560+05:30  INFO 11616 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2024-12-24T22:15:31.561+05:30  INFO 11616 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2024-12-24T22:15:31.562+05:30  INFO 11616 --- [hotel-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2024-12-24T22:15:31.563+05:30  INFO 11616 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1735058731563 with initial instances count: 0
-2024-12-24T22:15:31.566+05:30  INFO 11616 --- [hotel-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application HOTEL-SERVICE with eureka with status UP
-2024-12-24T22:15:31.566+05:30  INFO 11616 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1735058731566, current=UP, previous=STARTING]
-2024-12-24T22:15:31.567+05:30  INFO 11616 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081: registering service...
-2024-12-24T22:15:31.580+05:30  INFO 11616 --- [hotel-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
-2024-12-24T22:15:31.581+05:30  INFO 11616 --- [hotel-service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
-2024-12-24T22:15:31.589+05:30  INFO 11616 --- [hotel-service] [main] c.h.h.HotelserviceApplication            : Started HotelserviceApplication in 3.344 seconds (process running for 3.953)
-2024-12-24T22:15:31.655+05:30  INFO 11616 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081 - registration status: 204
-2024-12-24T22:15:35.391+05:30  INFO 11616 --- [hotel-service] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application HOTEL-SERVICE with eureka with status DOWN
-2024-12-24T22:15:35.391+05:30  INFO 11616 --- [hotel-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1735058735391, current=DOWN, previous=UP]
-2024-12-24T22:15:35.391+05:30  INFO 11616 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081: registering service...
-2024-12-24T22:15:35.394+05:30  INFO 11616 --- [hotel-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-12-24T22:15:35.400+05:30  INFO 11616 --- [hotel-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-12-24T22:15:35.406+05:30  INFO 11616 --- [hotel-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-12-24T22:15:35.408+05:30  INFO 11616 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081 - registration status: 204
-2024-12-24T22:15:35.409+05:30  INFO 11616 --- [hotel-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-12-24T22:15:35.413+05:30  INFO 11616 --- [hotel-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-12-24T22:15:35.414+05:30  INFO 11616 --- [hotel-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2024-12-24T22:15:38.415+05:30  INFO 11616 --- [hotel-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
-2024-12-24T22:15:38.439+05:30  INFO 11616 --- [hotel-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081 - deregister  status: 200
-2024-12-24T22:15:38.440+05:30  INFO 11616 --- [hotel-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
-2024-12-24T22:15:40.996+05:30  INFO 17768 --- [hotel-service] [main] c.h.h.HotelserviceApplication            : Starting HotelserviceApplication using Java 22 with PID 17768 (D:\code\microService\hotelservice\target\classes started by Shreyansh in D:\code\microService\hotelservice)
-2024-12-24T22:15:40.997+05:30  INFO 17768 --- [hotel-service] [main] c.h.h.HotelserviceApplication            : No active profile set, falling back to 1 default profile: "default"
-2024-12-24T22:15:41.674+05:30  INFO 17768 --- [hotel-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-24T22:15:41.829+05:30  INFO 17768 --- [hotel-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 145 ms. Found 1 JPA repository interface.
-2024-12-24T22:15:42.027+05:30  INFO 17768 --- [hotel-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=12fc4d7c-a6fd-323c-9d4a-9adb77164c09
-2024-12-24T22:15:42.357+05:30  INFO 17768 --- [hotel-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
-2024-12-24T22:15:42.369+05:30  INFO 17768 --- [hotel-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-24T22:15:42.371+05:30  INFO 17768 --- [hotel-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-12-24T22:15:42.425+05:30  INFO 17768 --- [hotel-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-12-24T22:15:42.426+05:30  INFO 17768 --- [hotel-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1388 ms
-2024-12-24T22:15:42.560+05:30  INFO 17768 --- [hotel-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-24T22:15:42.610+05:30  INFO 17768 --- [hotel-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
-2024-12-24T22:15:42.635+05:30  INFO 17768 --- [hotel-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-12-24T22:15:42.878+05:30  INFO 17768 --- [hotel-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-12-24T22:15:42.903+05:30  INFO 17768 --- [hotel-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-12-24T22:15:43.025+05:30  INFO 17768 --- [hotel-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a0c3aa8
-2024-12-24T22:15:43.027+05:30  INFO 17768 --- [hotel-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-12-24T22:15:43.061+05:30  WARN 17768 --- [hotel-service] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-12-24T22:15:43.061+05:30  WARN 17768 --- [hotel-service] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2024-12-24T22:15:43.074+05:30  INFO 17768 --- [hotel-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2024-12-24T22:15:43.649+05:30  INFO 17768 --- [hotel-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-12-24T22:15:43.692+05:30  INFO 17768 --- [hotel-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-12-24T22:15:43.889+05:30  WARN 17768 --- [hotel-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-12-24T22:15:44.328+05:30  INFO 17768 --- [hotel-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2024-12-24T22:15:44.367+05:30  WARN 17768 --- [hotel-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2024-12-24T22:15:44.408+05:30  INFO 17768 --- [hotel-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2024-12-24T22:15:44.427+05:30  INFO 17768 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2024-12-24T22:15:44.430+05:30  INFO 17768 --- [hotel-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2024-12-24T22:15:44.437+05:30  INFO 17768 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2024-12-24T22:15:44.437+05:30  INFO 17768 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2024-12-24T22:15:44.437+05:30  INFO 17768 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2024-12-24T22:15:44.437+05:30  INFO 17768 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2024-12-24T22:15:44.437+05:30  INFO 17768 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2024-12-24T22:15:44.438+05:30  INFO 17768 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2024-12-24T22:15:44.438+05:30  INFO 17768 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2024-12-24T22:15:44.757+05:30  INFO 17768 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2024-12-24T22:15:44.758+05:30  INFO 17768 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2024-12-24T22:15:44.759+05:30  INFO 17768 --- [hotel-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2024-12-24T22:15:44.761+05:30  INFO 17768 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1735058744760 with initial instances count: 0
-2024-12-24T22:15:44.764+05:30  INFO 17768 --- [hotel-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application HOTEL-SERVICE with eureka with status UP
-2024-12-24T22:15:44.765+05:30  INFO 17768 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1735058744765, current=UP, previous=STARTING]
-2024-12-24T22:15:44.766+05:30  INFO 17768 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081: registering service...
-2024-12-24T22:15:44.783+05:30  INFO 17768 --- [hotel-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
-2024-12-24T22:15:44.783+05:30  INFO 17768 --- [hotel-service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
-2024-12-24T22:15:44.795+05:30  INFO 17768 --- [hotel-service] [main] c.h.h.HotelserviceApplication            : Started HotelserviceApplication in 4.199 seconds (process running for 4.891)
-2024-12-24T22:15:44.804+05:30  INFO 17768 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081 - registration status: 204
-2024-12-24T22:16:14.769+05:30  INFO 17768 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2024-12-24T22:16:14.769+05:30  INFO 17768 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2024-12-24T22:16:14.771+05:30  INFO 17768 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2024-12-24T22:16:14.771+05:30  INFO 17768 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2024-12-24T22:16:14.771+05:30  INFO 17768 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2024-12-24T22:16:14.771+05:30  INFO 17768 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
-2024-12-24T22:16:14.771+05:30  INFO 17768 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2024-12-24T22:16:14.806+05:30  INFO 17768 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-12-25T12:29:28.481+05:30  INFO 15108 --- [hotel-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-25T12:29:28.556+05:30  INFO 15108 --- [hotel-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-25T12:29:28.915+05:30  WARN 15108 --- [hotel-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-25T12:29:29.677+05:30  INFO 15108 --- [hotel-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-12-25T12:29:29.729+05:30  WARN 15108 --- [hotel-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-12-25T12:29:29.802+05:30  INFO 15108 --- [hotel-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-12-25T12:29:29.837+05:30  INFO 15108 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-12-25T12:29:29.843+05:30  INFO 15108 --- [hotel-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-25T12:29:29.856+05:30  INFO 15108 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-12-25T12:29:29.857+05:30  INFO 15108 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-12-25T12:29:29.857+05:30  INFO 15108 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-12-25T12:29:29.857+05:30  INFO 15108 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-12-25T12:29:29.857+05:30  INFO 15108 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-12-25T12:29:29.857+05:30  INFO 15108 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-12-25T12:29:29.857+05:30  INFO 15108 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-12-25T12:29:30.525+05:30  INFO 15108 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-12-25T12:29:30.527+05:30  INFO 15108 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-12-25T12:29:30.541+05:30  INFO 15108 --- [hotel-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-12-25T12:29:30.546+05:30  INFO 15108 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1735109970544 with initial instances count: 0
+2024-12-25T12:29:30.551+05:30  INFO 15108 --- [hotel-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application HOTEL-SERVICE with eureka with status UP
+2024-12-25T12:29:30.552+05:30  INFO 15108 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1735109970552, current=UP, previous=STARTING]
+2024-12-25T12:29:30.555+05:30  INFO 15108 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081: registering service...
+2024-12-25T12:29:30.583+05:30  INFO 15108 --- [hotel-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-12-25T12:29:30.585+05:30  INFO 15108 --- [hotel-service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2024-12-25T12:29:30.603+05:30  INFO 15108 --- [hotel-service] [main] c.h.h.HotelserviceApplication            : Started HotelserviceApplication in 7.54 seconds (process running for 8.861)
+2024-12-25T12:29:30.774+05:30  INFO 15108 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081 - registration status: 204
+2024-12-25T12:30:00.538+05:30  INFO 15108 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-12-25T12:30:00.538+05:30  INFO 15108 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-12-25T12:30:00.538+05:30  INFO 15108 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-12-25T12:30:00.539+05:30  INFO 15108 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-12-25T12:30:00.539+05:30  INFO 15108 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-12-25T12:30:00.539+05:30  INFO 15108 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2024-12-25T12:30:00.539+05:30  INFO 15108 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-12-25T12:30:00.581+05:30  INFO 15108 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
