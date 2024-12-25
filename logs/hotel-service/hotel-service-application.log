@@ -1,0 +1,64 @@
+2024-12-25T14:52:49.445+05:30  INFO 2576 --- [hotel-service] [main] c.h.h.HotelserviceApplication            : Starting HotelserviceApplication using Java 22 with PID 2576 (D:\code\microService\hotelservice\target\classes started by Shreyansh in D:\code\microService\userservice)
+2024-12-25T14:52:49.448+05:30  INFO 2576 --- [hotel-service] [main] c.h.h.HotelserviceApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-12-25T14:52:50.644+05:30  INFO 2576 --- [hotel-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-25T14:52:50.924+05:30  INFO 2576 --- [hotel-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 261 ms. Found 1 JPA repository interface.
+2024-12-25T14:52:51.338+05:30  INFO 2576 --- [hotel-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=12fc4d7c-a6fd-323c-9d4a-9adb77164c09
+2024-12-25T14:52:51.960+05:30  INFO 2576 --- [hotel-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-12-25T14:52:51.983+05:30  INFO 2576 --- [hotel-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-25T14:52:51.984+05:30  INFO 2576 --- [hotel-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-25T14:52:52.105+05:30  INFO 2576 --- [hotel-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-25T14:52:52.106+05:30  INFO 2576 --- [hotel-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2587 ms
+2024-12-25T14:52:52.378+05:30  INFO 2576 --- [hotel-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-25T14:52:52.473+05:30  INFO 2576 --- [hotel-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-25T14:52:52.526+05:30  INFO 2576 --- [hotel-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-25T14:52:53.013+05:30  INFO 2576 --- [hotel-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-25T14:52:53.061+05:30  INFO 2576 --- [hotel-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariCP - Starting...
+2024-12-25T14:52:53.323+05:30  INFO 2576 --- [hotel-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@2cdb5974
+2024-12-25T14:52:53.328+05:30  INFO 2576 --- [hotel-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariCP - Start completed.
+2024-12-25T14:52:53.410+05:30  WARN 2576 --- [hotel-service] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-25T14:52:53.412+05:30  WARN 2576 --- [hotel-service] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-12-25T14:52:53.439+05:30  INFO 2576 --- [hotel-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariCP)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-25T14:52:54.709+05:30  INFO 2576 --- [hotel-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-25T14:52:54.796+05:30  INFO 2576 --- [hotel-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-25T14:52:55.273+05:30  WARN 2576 --- [hotel-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-25T14:52:56.244+05:30  INFO 2576 --- [hotel-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-12-25T14:52:56.318+05:30  WARN 2576 --- [hotel-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-12-25T14:52:56.414+05:30  INFO 2576 --- [hotel-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-12-25T14:52:56.461+05:30  INFO 2576 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-12-25T14:52:56.469+05:30  INFO 2576 --- [hotel-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-25T14:52:56.485+05:30  INFO 2576 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-12-25T14:52:56.486+05:30  INFO 2576 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-12-25T14:52:56.486+05:30  INFO 2576 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-12-25T14:52:56.486+05:30  INFO 2576 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-12-25T14:52:56.486+05:30  INFO 2576 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-12-25T14:52:56.487+05:30  INFO 2576 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-12-25T14:52:56.487+05:30  INFO 2576 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-12-25T14:52:57.141+05:30  INFO 2576 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-12-25T14:52:57.143+05:30  INFO 2576 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-12-25T14:52:57.146+05:30  INFO 2576 --- [hotel-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-12-25T14:52:57.149+05:30  INFO 2576 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1735118577148 with initial instances count: 0
+2024-12-25T14:52:57.156+05:30  INFO 2576 --- [hotel-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application HOTEL-SERVICE with eureka with status UP
+2024-12-25T14:52:57.158+05:30  INFO 2576 --- [hotel-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1735118577158, current=UP, previous=STARTING]
+2024-12-25T14:52:57.161+05:30  INFO 2576 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081: registering service...
+2024-12-25T14:52:57.194+05:30  INFO 2576 --- [hotel-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-12-25T14:52:57.196+05:30  INFO 2576 --- [hotel-service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2024-12-25T14:52:57.221+05:30  INFO 2576 --- [hotel-service] [main] c.h.h.HotelserviceApplication            : Started HotelserviceApplication in 8.504 seconds (process running for 9.806)
+2024-12-25T14:52:57.239+05:30  INFO 2576 --- [hotel-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HOTEL-SERVICE/Shreyansh:hotel-service:8081 - registration status: 204
+2024-12-25T14:53:20.482+05:30  INFO 2576 --- [hotel-service] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-25T14:53:20.483+05:30  INFO 2576 --- [hotel-service] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-25T14:53:20.485+05:30  INFO 2576 --- [hotel-service] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-12-25T14:53:27.157+05:30  INFO 2576 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-12-25T14:53:27.157+05:30  INFO 2576 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-12-25T14:53:27.157+05:30  INFO 2576 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-12-25T14:53:27.158+05:30  INFO 2576 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-12-25T14:53:27.158+05:30  INFO 2576 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-12-25T14:53:27.158+05:30  INFO 2576 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2024-12-25T14:53:27.158+05:30  INFO 2576 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-12-25T14:53:27.202+05:30  INFO 2576 --- [hotel-service] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200

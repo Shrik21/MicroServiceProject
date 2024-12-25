@@ -1,0 +1,48 @@
+2024-12-25T14:52:42.587+05:30  INFO 11948 --- [API-Gateway] [main] c.l.apigateway.ApiGatewayApplication     : Starting ApiGatewayApplication using Java 22 with PID 11948 (D:\code\microService\APIGateway\target\classes started by Shreyansh in D:\code\microService\userservice)
+2024-12-25T14:52:42.591+05:30  INFO 11948 --- [API-Gateway] [main] c.l.apigateway.ApiGatewayApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-12-25T14:52:43.896+05:30  INFO 11948 --- [API-Gateway] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f123f9a7-f5d4-3f03-a5ab-62fe28dbc378
+2024-12-25T14:52:45.128+05:30  INFO 11948 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2024-12-25T14:52:45.131+05:30  INFO 11948 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2024-12-25T14:52:45.132+05:30  INFO 11948 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2024-12-25T14:52:45.132+05:30  INFO 11948 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2024-12-25T14:52:45.133+05:30  INFO 11948 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2024-12-25T14:52:45.133+05:30  INFO 11948 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2024-12-25T14:52:45.133+05:30  INFO 11948 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2024-12-25T14:52:45.133+05:30  INFO 11948 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2024-12-25T14:52:45.134+05:30  INFO 11948 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2024-12-25T14:52:45.134+05:30  INFO 11948 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2024-12-25T14:52:45.134+05:30  INFO 11948 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2024-12-25T14:52:45.135+05:30  INFO 11948 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-12-25T14:52:45.135+05:30  INFO 11948 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2024-12-25T14:52:45.135+05:30  INFO 11948 --- [API-Gateway] [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-12-25T14:52:45.537+05:30  INFO 11948 --- [API-Gateway] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-12-25T14:52:45.597+05:30  WARN 11948 --- [API-Gateway] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-12-25T14:52:45.722+05:30  INFO 11948 --- [API-Gateway] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-12-25T14:52:45.764+05:30  INFO 11948 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-12-25T14:52:45.771+05:30  INFO 11948 --- [API-Gateway] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-25T14:52:45.786+05:30  INFO 11948 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-12-25T14:52:45.786+05:30  INFO 11948 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-12-25T14:52:45.786+05:30  INFO 11948 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-12-25T14:52:45.786+05:30  INFO 11948 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-12-25T14:52:45.787+05:30  INFO 11948 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-12-25T14:52:45.787+05:30  INFO 11948 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-12-25T14:52:45.788+05:30  INFO 11948 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-12-25T14:52:46.448+05:30  INFO 11948 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-12-25T14:52:46.450+05:30  INFO 11948 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-12-25T14:52:46.453+05:30  INFO 11948 --- [API-Gateway] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-12-25T14:52:46.457+05:30  INFO 11948 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1735118566455 with initial instances count: 0
+2024-12-25T14:52:46.463+05:30  INFO 11948 --- [API-Gateway] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application API-GATEWAY with eureka with status UP
+2024-12-25T14:52:46.463+05:30  INFO 11948 --- [API-Gateway] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1735118566463, current=UP, previous=STARTING]
+2024-12-25T14:52:46.466+05:30  INFO 11948 --- [API-Gateway] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Shreyansh:API-Gateway:8083: registering service...
+2024-12-25T14:52:46.694+05:30  INFO 11948 --- [API-Gateway] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Shreyansh:API-Gateway:8083 - registration status: 204
+2024-12-25T14:52:46.752+05:30  INFO 11948 --- [API-Gateway] [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8083 (http)
+2024-12-25T14:52:46.755+05:30  INFO 11948 --- [API-Gateway] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
+2024-12-25T14:52:46.788+05:30  INFO 11948 --- [API-Gateway] [main] c.l.apigateway.ApiGatewayApplication     : Started ApiGatewayApplication in 4.939 seconds (process running for 6.247)
+2024-12-25T14:53:16.461+05:30  INFO 11948 --- [API-Gateway] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-12-25T14:53:16.463+05:30  INFO 11948 --- [API-Gateway] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-12-25T14:53:16.463+05:30  INFO 11948 --- [API-Gateway] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-12-25T14:53:16.463+05:30  INFO 11948 --- [API-Gateway] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-12-25T14:53:16.464+05:30  INFO 11948 --- [API-Gateway] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-12-25T14:53:16.464+05:30  INFO 11948 --- [API-Gateway] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2024-12-25T14:53:16.464+05:30  INFO 11948 --- [API-Gateway] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-12-25T14:53:16.506+05:30  INFO 11948 --- [API-Gateway] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
