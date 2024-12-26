@@ -1,452 +1,53 @@
-2024-12-25T14:52:26.187+05:30  INFO 10596 --- [serviceRegistry] [main] c.l.s.ServiceRegistryApplication         : Starting ServiceRegistryApplication using Java 22 with PID 10596 (D:\code\microService\serviceRegistry\target\classes started by Shreyansh in D:\code\microService\userservice)
-2024-12-25T14:52:26.192+05:30  INFO 10596 --- [serviceRegistry] [main] c.l.s.ServiceRegistryApplication         : No active profile set, falling back to 1 default profile: "default"
-2024-12-25T14:52:27.924+05:30  INFO 10596 --- [serviceRegistry] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ac00c69b-b78b-3001-8520-ea13c903b913
-2024-12-25T14:52:28.364+05:30  INFO 10596 --- [serviceRegistry] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8761 (http)
-2024-12-25T14:52:28.386+05:30  INFO 10596 --- [serviceRegistry] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-25T14:52:28.387+05:30  INFO 10596 --- [serviceRegistry] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2024-12-25T14:52:28.508+05:30  INFO 10596 --- [serviceRegistry] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-12-25T14:52:28.509+05:30  INFO 10596 --- [serviceRegistry] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2231 ms
-2024-12-25T14:52:29.883+05:30  INFO 10596 --- [serviceRegistry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
-2024-12-25T14:52:29.886+05:30  INFO 10596 --- [serviceRegistry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
-2024-12-25T14:52:30.156+05:30  INFO 10596 --- [serviceRegistry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
-2024-12-25T14:52:30.156+05:30  INFO 10596 --- [serviceRegistry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
-2024-12-25T14:52:30.395+05:30  INFO 10596 --- [serviceRegistry] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
-2024-12-25T14:52:31.547+05:30  WARN 10596 --- [serviceRegistry] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2024-12-25T14:52:31.589+05:30  INFO 10596 --- [serviceRegistry] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2024-12-25T14:52:31.619+05:30  INFO 10596 --- [serviceRegistry] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2024-12-25T14:52:31.619+05:30  INFO 10596 --- [serviceRegistry] [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
-2024-12-25T14:52:31.622+05:30  INFO 10596 --- [serviceRegistry] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1735118551621 with initial instances count: 0
-2024-12-25T14:52:31.684+05:30  INFO 10596 --- [serviceRegistry] [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
-2024-12-25T14:52:31.686+05:30  WARN 10596 --- [serviceRegistry] [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
-2024-12-25T14:52:31.699+05:30  INFO 10596 --- [serviceRegistry] [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
-2024-12-25T14:52:31.700+05:30  INFO 10596 --- [serviceRegistry] [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
-2024-12-25T14:52:31.718+05:30  INFO 10596 --- [serviceRegistry] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2024-12-25T14:52:31.825+05:30  INFO 10596 --- [serviceRegistry] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SERVICEREGISTRY with eureka with status UP
-2024-12-25T14:52:31.842+05:30  INFO 10596 --- [serviceRegistry] [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
-2024-12-25T14:52:31.842+05:30  INFO 10596 --- [serviceRegistry] [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
-2024-12-25T14:52:31.843+05:30  INFO 10596 --- [serviceRegistry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
-2024-12-25T14:52:31.843+05:30  INFO 10596 --- [serviceRegistry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
-2024-12-25T14:52:31.844+05:30  INFO 10596 --- [serviceRegistry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
-2024-12-25T14:52:31.847+05:30  INFO 10596 --- [serviceRegistry] [Thread-9] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
-2024-12-25T14:52:31.858+05:30  INFO 10596 --- [serviceRegistry] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8761 (http) with context path '/'
-2024-12-25T14:52:31.859+05:30  INFO 10596 --- [serviceRegistry] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
-2024-12-25T14:52:31.887+05:30  INFO 10596 --- [serviceRegistry] [main] c.l.s.ServiceRegistryApplication         : Started ServiceRegistryApplication in 6.433 seconds (process running for 7.753)
-2024-12-25T14:52:32.104+05:30  INFO 10596 --- [serviceRegistry] [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-12-25T14:52:32.104+05:30  INFO 10596 --- [serviceRegistry] [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-12-25T14:52:32.108+05:30  INFO 10596 --- [serviceRegistry] [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
-2024-12-25T14:52:46.685+05:30  INFO 10596 --- [serviceRegistry] [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/Shreyansh:API-Gateway:8083 with status UP (replication=false)
-2024-12-25T14:52:57.236+05:30  INFO 10596 --- [serviceRegistry] [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HOTEL-SERVICE/Shreyansh:hotel-service:8081 with status UP (replication=false)
-2024-12-25T14:52:57.867+05:30  INFO 10596 --- [serviceRegistry] [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance RATING-SERVICE/Shreyansh:rating-service:8082 with status UP (replication=false)
-2024-12-25T14:53:07.964+05:30  INFO 10596 --- [serviceRegistry] [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USER-SERVICE/Shreyansh:user-service:8080 with status UP (replication=false)
-2024-12-25T14:53:31.844+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T14:54:31.858+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
-2024-12-25T14:55:31.869+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
-2024-12-25T14:56:31.883+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
-2024-12-25T14:57:31.891+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
-2024-12-25T14:58:31.905+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
-2024-12-25T14:59:31.906+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T15:00:31.906+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T15:01:31.919+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
-2024-12-25T15:02:31.702+05:30  WARN 10596 --- [serviceRegistry] [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
-2024-12-25T15:02:31.934+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 15ms
-2024-12-25T15:03:31.947+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
-2024-12-25T15:04:31.962+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 15ms
-2024-12-25T15:05:31.976+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
-2024-12-25T15:06:31.980+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
-2024-12-25T15:07:31.700+05:30  INFO 10596 --- [serviceRegistry] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 8
-2024-12-25T15:07:31.981+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
-2024-12-25T15:08:31.996+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
-2024-12-25T15:09:31.998+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
-2024-12-25T15:10:31.998+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T15:11:32.001+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
-2024-12-25T15:12:31.710+05:30  WARN 10596 --- [serviceRegistry] [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
-2024-12-25T15:12:32.001+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T15:13:32.005+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
-2024-12-25T15:14:32.006+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
-2024-12-25T15:15:32.008+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
-2024-12-25T15:16:32.008+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T15:17:32.008+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T15:18:32.009+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T15:19:32.010+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
-2024-12-25T15:20:32.011+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T15:21:32.012+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
-2024-12-25T15:22:31.709+05:30  INFO 10596 --- [serviceRegistry] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 8
-2024-12-25T15:22:31.724+05:30  WARN 10596 --- [serviceRegistry] [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
-2024-12-25T15:22:32.012+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T15:23:32.013+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
-2024-12-25T15:24:32.014+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T15:25:32.014+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T15:25:52.851+05:30  INFO 10596 --- [serviceRegistry] [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/Shreyansh:API-Gateway:8083 with status DOWN (replication=false)
-2024-12-25T15:25:57.963+05:30  INFO 10596 --- [serviceRegistry] [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance API-GATEWAY/Shreyansh:API-Gateway:8083 (replication=false)
-2024-12-25T15:26:06.190+05:30  INFO 10596 --- [serviceRegistry] [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/Shreyansh:API-Gateway:8083 with status UP (replication=false)
-2024-12-25T15:26:09.239+05:30  INFO 10596 --- [serviceRegistry] [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance API-GATEWAY/Shreyansh:API-Gateway:8083 (replication=false)
-2024-12-25T15:26:32.026+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
-2024-12-25T15:27:32.027+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T15:28:24.206+05:30  INFO 10596 --- [serviceRegistry] [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/Shreyansh:API-Gateway:8083 with status UP (replication=false)
-2024-12-25T15:28:32.027+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T15:29:32.028+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
-2024-12-25T15:30:32.028+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T15:31:32.029+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T15:32:31.726+05:30  WARN 10596 --- [serviceRegistry] [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
-2024-12-25T15:32:32.029+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T15:33:32.029+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T15:34:32.029+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T15:35:32.029+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T15:36:32.029+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T15:37:11.726+05:30  INFO 10596 --- [serviceRegistry] [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USER-SERVICE/Shreyansh:user-service:8080 with status DOWN (replication=false)
-2024-12-25T15:37:14.779+05:30  INFO 10596 --- [serviceRegistry] [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance USER-SERVICE/Shreyansh:user-service:8080 (replication=false)
-2024-12-25T15:37:21.971+05:30  INFO 10596 --- [serviceRegistry] [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USER-SERVICE/Shreyansh:user-service:8080 with status UP (replication=false)
-2024-12-25T15:37:31.710+05:30  INFO 10596 --- [serviceRegistry] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 8
-2024-12-25T15:37:32.030+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T15:38:32.030+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T15:39:32.031+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T15:39:52.024+05:30  INFO 10596 --- [serviceRegistry] [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USER-SERVICE/Shreyansh:user-service:8080 with status DOWN (replication=false)
-2024-12-25T15:39:55.069+05:30  INFO 10596 --- [serviceRegistry] [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance USER-SERVICE/Shreyansh:user-service:8080 (replication=false)
-2024-12-25T15:40:01.707+05:30  INFO 10596 --- [serviceRegistry] [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USER-SERVICE/Shreyansh:user-service:8080 with status UP (replication=false)
-2024-12-25T15:40:25.534+05:30  INFO 10596 --- [serviceRegistry] [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USER-SERVICE/Shreyansh:user-service:8080 with status DOWN (replication=false)
-2024-12-25T15:40:28.590+05:30  INFO 10596 --- [serviceRegistry] [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance USER-SERVICE/Shreyansh:user-service:8080 (replication=false)
-2024-12-25T15:40:32.031+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T15:40:35.703+05:30  INFO 10596 --- [serviceRegistry] [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USER-SERVICE/Shreyansh:user-service:8080 with status UP (replication=false)
-2024-12-25T15:41:32.032+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T15:42:31.728+05:30  WARN 10596 --- [serviceRegistry] [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
-2024-12-25T15:42:32.033+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T15:43:32.034+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T15:44:18.918+05:30  INFO 10596 --- [serviceRegistry] [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USER-SERVICE/Shreyansh:user-service:8080 with status DOWN (replication=false)
-2024-12-25T15:44:21.950+05:30  INFO 10596 --- [serviceRegistry] [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance USER-SERVICE/Shreyansh:user-service:8080 (replication=false)
-2024-12-25T15:44:32.035+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T15:45:06.767+05:30  INFO 10596 --- [serviceRegistry] [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USER-SERVICE/Shreyansh:user-service:8080 with status UP (replication=false)
-2024-12-25T15:45:32.035+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T15:46:32.042+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
-2024-12-25T15:47:32.051+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
-2024-12-25T15:48:32.063+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
-2024-12-25T15:49:32.065+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
-2024-12-25T15:50:32.077+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
-2024-12-25T15:51:32.089+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
-2024-12-25T15:52:31.710+05:30  INFO 10596 --- [serviceRegistry] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 8
-2024-12-25T15:52:31.736+05:30  WARN 10596 --- [serviceRegistry] [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
-2024-12-25T15:52:32.102+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
-2024-12-25T15:53:32.108+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
-2024-12-25T15:54:32.122+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
-2024-12-25T15:55:32.125+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
-2024-12-25T15:56:32.132+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
-2024-12-25T15:57:32.139+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
-2024-12-25T15:58:32.146+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
-2024-12-25T15:59:32.154+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
-2024-12-25T16:00:32.161+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
-2024-12-25T16:01:32.166+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
-2024-12-25T16:02:31.751+05:30  WARN 10596 --- [serviceRegistry] [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
-2024-12-25T16:02:32.172+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
-2024-12-25T16:03:32.179+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
-2024-12-25T16:04:32.183+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
-2024-12-25T16:05:32.193+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
-2024-12-25T16:06:32.198+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
-2024-12-25T16:07:31.716+05:30  INFO 10596 --- [serviceRegistry] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 8
-2024-12-25T16:07:32.199+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
-2024-12-25T16:08:32.208+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
-2024-12-25T16:09:32.214+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
-2024-12-25T16:10:32.233+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 19ms
-2024-12-25T16:11:32.249+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 15ms
-2024-12-25T16:12:31.756+05:30  WARN 10596 --- [serviceRegistry] [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
-2024-12-25T16:12:32.270+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 21ms
-2024-12-25T16:13:32.283+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
-2024-12-25T16:14:32.296+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
-2024-12-25T16:15:32.304+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
-2024-12-25T16:16:32.310+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
-2024-12-25T16:17:32.323+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
-2024-12-25T16:18:32.332+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
-2024-12-25T16:19:35.491+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3158ms
-2024-12-25T16:20:36.517+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1026ms
-2024-12-25T20:04:16.196+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13359678ms
-2024-12-25T20:05:15.551+05:30  INFO 10596 --- [serviceRegistry] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 8
-2024-12-25T20:05:15.584+05:30  WARN 10596 --- [serviceRegistry] [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
-2024-12-25T20:05:16.198+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
-2024-12-25T20:06:16.202+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
-2024-12-25T20:07:16.203+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T20:08:16.203+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T20:09:16.204+05:30  INFO 10596 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T20:10:00.428+05:30  INFO 10596 --- [serviceRegistry] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SERVICEREGISTRY with eureka with status DOWN
-2024-12-25T20:10:00.447+05:30  INFO 10596 --- [serviceRegistry] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-12-25T20:10:00.456+05:30  INFO 10596 --- [serviceRegistry] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-12-25T20:10:00.463+05:30  INFO 10596 --- [serviceRegistry] [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
-2024-12-25T20:10:00.464+05:30  INFO 10596 --- [serviceRegistry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
-2024-12-25T20:10:00.465+05:30  INFO 10596 --- [serviceRegistry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
-2024-12-25T20:10:00.465+05:30  INFO 10596 --- [serviceRegistry] [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
-2024-12-25T20:10:00.468+05:30  INFO 10596 --- [serviceRegistry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
-2024-12-25T20:10:00.468+05:30  INFO 10596 --- [serviceRegistry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
-2024-12-25T20:10:00.478+05:30  INFO 10596 --- [serviceRegistry] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2024-12-25T20:10:00.479+05:30  INFO 10596 --- [serviceRegistry] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
-2024-12-25T20:13:27.549+05:30  INFO 1320 --- [serviceRegistry] [main] c.l.s.ServiceRegistryApplication         : Starting ServiceRegistryApplication using Java 22 with PID 1320 (D:\code\microService\serviceRegistry\target\classes started by Shreyansh in D:\code\microService\userservice)
-2024-12-25T20:13:27.550+05:30  INFO 1320 --- [serviceRegistry] [main] c.l.s.ServiceRegistryApplication         : No active profile set, falling back to 1 default profile: "default"
-2024-12-25T20:13:28.206+05:30  INFO 1320 --- [serviceRegistry] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ac00c69b-b78b-3001-8520-ea13c903b913
-2024-12-25T20:13:28.394+05:30  INFO 1320 --- [serviceRegistry] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8761 (http)
-2024-12-25T20:13:28.404+05:30  INFO 1320 --- [serviceRegistry] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-25T20:13:28.405+05:30  INFO 1320 --- [serviceRegistry] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2024-12-25T20:13:28.463+05:30  INFO 1320 --- [serviceRegistry] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-12-25T20:13:28.463+05:30  INFO 1320 --- [serviceRegistry] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 884 ms
-2024-12-25T20:13:29.035+05:30  INFO 1320 --- [serviceRegistry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
-2024-12-25T20:13:29.036+05:30  INFO 1320 --- [serviceRegistry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
-2024-12-25T20:13:29.141+05:30  INFO 1320 --- [serviceRegistry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
-2024-12-25T20:13:29.141+05:30  INFO 1320 --- [serviceRegistry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
-2024-12-25T20:13:29.238+05:30  INFO 1320 --- [serviceRegistry] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
-2024-12-25T20:13:29.705+05:30  WARN 1320 --- [serviceRegistry] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2024-12-25T20:13:29.717+05:30  INFO 1320 --- [serviceRegistry] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2024-12-25T20:13:29.735+05:30  INFO 1320 --- [serviceRegistry] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2024-12-25T20:13:29.735+05:30  INFO 1320 --- [serviceRegistry] [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
-2024-12-25T20:13:29.736+05:30  INFO 1320 --- [serviceRegistry] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1735137809735 with initial instances count: 0
-2024-12-25T20:13:29.766+05:30  INFO 1320 --- [serviceRegistry] [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
-2024-12-25T20:13:29.767+05:30  WARN 1320 --- [serviceRegistry] [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
-2024-12-25T20:13:29.774+05:30  INFO 1320 --- [serviceRegistry] [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
-2024-12-25T20:13:29.775+05:30  INFO 1320 --- [serviceRegistry] [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
-2024-12-25T20:13:29.782+05:30  INFO 1320 --- [serviceRegistry] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2024-12-25T20:13:29.824+05:30  INFO 1320 --- [serviceRegistry] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SERVICEREGISTRY with eureka with status UP
-2024-12-25T20:13:29.831+05:30  INFO 1320 --- [serviceRegistry] [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
-2024-12-25T20:13:29.831+05:30  INFO 1320 --- [serviceRegistry] [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
-2024-12-25T20:13:29.831+05:30  INFO 1320 --- [serviceRegistry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
-2024-12-25T20:13:29.832+05:30  INFO 1320 --- [serviceRegistry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
-2024-12-25T20:13:29.832+05:30  INFO 1320 --- [serviceRegistry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
-2024-12-25T20:13:29.833+05:30  INFO 1320 --- [serviceRegistry] [Thread-9] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
-2024-12-25T20:13:29.837+05:30  INFO 1320 --- [serviceRegistry] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8761 (http) with context path '/'
-2024-12-25T20:13:29.838+05:30  INFO 1320 --- [serviceRegistry] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
-2024-12-25T20:13:29.848+05:30  INFO 1320 --- [serviceRegistry] [main] c.l.s.ServiceRegistryApplication         : Started ServiceRegistryApplication in 2.61 seconds (process running for 6.346)
-2024-12-25T20:13:41.523+05:30  INFO 1320 --- [serviceRegistry] [http-nio-8761-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-12-25T20:13:41.523+05:30  INFO 1320 --- [serviceRegistry] [http-nio-8761-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-12-25T20:13:41.524+05:30  INFO 1320 --- [serviceRegistry] [http-nio-8761-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2024-12-25T20:13:41.574+05:30  WARN 1320 --- [serviceRegistry] [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: API-GATEWAY - Shreyansh:API-Gateway:8083
-2024-12-25T20:13:41.575+05:30  WARN 1320 --- [serviceRegistry] [http-nio-8761-exec-1] c.n.eureka.resources.InstanceResource    : Not Found (Renew): API-GATEWAY - Shreyansh:API-Gateway:8083
-2024-12-25T20:13:41.681+05:30  INFO 1320 --- [serviceRegistry] [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/Shreyansh:API-Gateway:8083 with status UP (replication=false)
-2024-12-25T20:13:46.731+05:30  WARN 1320 --- [serviceRegistry] [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: HOTEL-SERVICE - Shreyansh:hotel-service:8081
-2024-12-25T20:13:46.731+05:30  WARN 1320 --- [serviceRegistry] [http-nio-8761-exec-7] c.n.eureka.resources.InstanceResource    : Not Found (Renew): HOTEL-SERVICE - Shreyansh:hotel-service:8081
-2024-12-25T20:13:46.745+05:30  INFO 1320 --- [serviceRegistry] [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HOTEL-SERVICE/Shreyansh:hotel-service:8081 with status UP (replication=false)
-2024-12-25T20:13:47.020+05:30  WARN 1320 --- [serviceRegistry] [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: RATING-SERVICE - Shreyansh:rating-service:8082
-2024-12-25T20:13:47.021+05:30  WARN 1320 --- [serviceRegistry] [http-nio-8761-exec-2] c.n.eureka.resources.InstanceResource    : Not Found (Renew): RATING-SERVICE - Shreyansh:rating-service:8082
-2024-12-25T20:13:47.035+05:30  INFO 1320 --- [serviceRegistry] [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance RATING-SERVICE/Shreyansh:rating-service:8082 with status UP (replication=false)
-2024-12-25T20:13:53.049+05:30  WARN 1320 --- [serviceRegistry] [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: USER-SERVICE - Shreyansh:user-service:8080
-2024-12-25T20:13:53.049+05:30  WARN 1320 --- [serviceRegistry] [http-nio-8761-exec-5] c.n.eureka.resources.InstanceResource    : Not Found (Renew): USER-SERVICE - Shreyansh:user-service:8080
-2024-12-25T20:13:53.060+05:30  INFO 1320 --- [serviceRegistry] [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USER-SERVICE/Shreyansh:user-service:8080 with status UP (replication=false)
-2024-12-25T20:14:29.833+05:30  INFO 1320 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T20:15:29.843+05:30  INFO 1320 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
-2024-12-25T20:16:29.848+05:30  INFO 1320 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
-2024-12-25T20:17:29.853+05:30  INFO 1320 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
-2024-12-25T20:18:13.953+05:30  INFO 1320 --- [serviceRegistry] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SERVICEREGISTRY with eureka with status DOWN
-2024-12-25T20:18:13.956+05:30  INFO 1320 --- [serviceRegistry] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-12-25T20:18:13.962+05:30  INFO 1320 --- [serviceRegistry] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-12-25T20:18:13.964+05:30  INFO 1320 --- [serviceRegistry] [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
-2024-12-25T20:18:13.965+05:30  INFO 1320 --- [serviceRegistry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
-2024-12-25T20:18:13.965+05:30  INFO 1320 --- [serviceRegistry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
-2024-12-25T20:18:13.965+05:30  INFO 1320 --- [serviceRegistry] [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
-2024-12-25T20:18:13.967+05:30  INFO 1320 --- [serviceRegistry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
-2024-12-25T20:18:13.967+05:30  INFO 1320 --- [serviceRegistry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
-2024-12-25T20:18:13.972+05:30  INFO 1320 --- [serviceRegistry] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2024-12-25T20:18:13.972+05:30  INFO 1320 --- [serviceRegistry] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
-2024-12-25T20:18:24.189+05:30  INFO 16948 --- [serviceRegistry] [main] c.l.s.ServiceRegistryApplication         : Starting ServiceRegistryApplication using Java 22 with PID 16948 (D:\code\microService\serviceRegistry\target\classes started by Shreyansh in D:\code\microService\userservice)
-2024-12-25T20:18:24.190+05:30  INFO 16948 --- [serviceRegistry] [main] c.l.s.ServiceRegistryApplication         : No active profile set, falling back to 1 default profile: "default"
-2024-12-25T20:18:24.865+05:30  INFO 16948 --- [serviceRegistry] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ac00c69b-b78b-3001-8520-ea13c903b913
-2024-12-25T20:18:25.043+05:30  INFO 16948 --- [serviceRegistry] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8761 (http)
-2024-12-25T20:18:25.052+05:30  INFO 16948 --- [serviceRegistry] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-25T20:18:25.052+05:30  INFO 16948 --- [serviceRegistry] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2024-12-25T20:18:25.098+05:30  INFO 16948 --- [serviceRegistry] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-12-25T20:18:25.098+05:30  INFO 16948 --- [serviceRegistry] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 879 ms
-2024-12-25T20:18:25.657+05:30  INFO 16948 --- [serviceRegistry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
-2024-12-25T20:18:25.657+05:30  INFO 16948 --- [serviceRegistry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
-2024-12-25T20:18:25.754+05:30  INFO 16948 --- [serviceRegistry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
-2024-12-25T20:18:25.755+05:30  INFO 16948 --- [serviceRegistry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
-2024-12-25T20:18:25.846+05:30  INFO 16948 --- [serviceRegistry] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
-2024-12-25T20:18:26.295+05:30  WARN 16948 --- [serviceRegistry] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2024-12-25T20:18:26.307+05:30  INFO 16948 --- [serviceRegistry] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2024-12-25T20:18:26.320+05:30  INFO 16948 --- [serviceRegistry] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2024-12-25T20:18:26.320+05:30  INFO 16948 --- [serviceRegistry] [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
-2024-12-25T20:18:26.322+05:30  INFO 16948 --- [serviceRegistry] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1735138106321 with initial instances count: 0
-2024-12-25T20:18:26.345+05:30  INFO 16948 --- [serviceRegistry] [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
-2024-12-25T20:18:26.346+05:30  WARN 16948 --- [serviceRegistry] [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
-2024-12-25T20:18:26.353+05:30  INFO 16948 --- [serviceRegistry] [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
-2024-12-25T20:18:26.353+05:30  INFO 16948 --- [serviceRegistry] [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
-2024-12-25T20:18:26.360+05:30  INFO 16948 --- [serviceRegistry] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2024-12-25T20:18:26.399+05:30  INFO 16948 --- [serviceRegistry] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SERVICEREGISTRY with eureka with status UP
-2024-12-25T20:18:26.406+05:30  INFO 16948 --- [serviceRegistry] [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
-2024-12-25T20:18:26.407+05:30  INFO 16948 --- [serviceRegistry] [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
-2024-12-25T20:18:26.407+05:30  INFO 16948 --- [serviceRegistry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
-2024-12-25T20:18:26.407+05:30  INFO 16948 --- [serviceRegistry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
-2024-12-25T20:18:26.407+05:30  INFO 16948 --- [serviceRegistry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
-2024-12-25T20:18:26.409+05:30  INFO 16948 --- [serviceRegistry] [Thread-9] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
-2024-12-25T20:18:26.412+05:30  INFO 16948 --- [serviceRegistry] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8761 (http) with context path '/'
-2024-12-25T20:18:26.412+05:30  INFO 16948 --- [serviceRegistry] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
-2024-12-25T20:18:26.424+05:30  INFO 16948 --- [serviceRegistry] [main] c.l.s.ServiceRegistryApplication         : Started ServiceRegistryApplication in 2.57 seconds (process running for 3.123)
-2024-12-25T20:18:26.524+05:30  INFO 16948 --- [serviceRegistry] [RMI TCP Connection(1)-192.168.1.5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-12-25T20:18:26.524+05:30  INFO 16948 --- [serviceRegistry] [RMI TCP Connection(1)-192.168.1.5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-12-25T20:18:26.525+05:30  INFO 16948 --- [serviceRegistry] [RMI TCP Connection(1)-192.168.1.5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-12-25T20:18:34.759+05:30  INFO 16948 --- [serviceRegistry] [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance RATING-SERVICE/Shreyansh:rating-service:8082 with status UP (replication=false)
-2024-12-25T20:18:38.450+05:30  INFO 16948 --- [serviceRegistry] [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HOTEL-SERVICE/Shreyansh:hotel-service:8081 with status UP (replication=false)
-2024-12-25T20:18:41.520+05:30  INFO 16948 --- [serviceRegistry] [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USER-SERVICE/Shreyansh:user-service:8080 with status UP (replication=false)
-2024-12-25T20:18:50.987+05:30  INFO 16948 --- [serviceRegistry] [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/Shreyansh:API-Gateway:8083 with status UP (replication=false)
-2024-12-25T20:19:26.407+05:30  INFO 16948 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T20:20:05.087+05:30  INFO 16948 --- [serviceRegistry] [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance RATING-SERVICE/Shreyansh:rating-service:8082 with status DOWN (replication=false)
-2024-12-25T20:20:08.117+05:30  INFO 16948 --- [serviceRegistry] [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance RATING-SERVICE/Shreyansh:rating-service:8082 (replication=false)
-2024-12-25T20:20:11.858+05:30  INFO 16948 --- [serviceRegistry] [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance RATING-SERVICE/Shreyansh:rating-service:8082 with status UP (replication=false)
-2024-12-25T20:20:26.408+05:30  INFO 16948 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T20:21:26.422+05:30  INFO 16948 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
-2024-12-25T20:21:48.118+05:30  INFO 16948 --- [serviceRegistry] [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/Shreyansh:API-Gateway:8083 with status DOWN (replication=false)
-2024-12-25T20:21:53.201+05:30  INFO 16948 --- [serviceRegistry] [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance API-GATEWAY/Shreyansh:API-Gateway:8083 (replication=false)
-2024-12-25T20:21:56.559+05:30  INFO 16948 --- [serviceRegistry] [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/Shreyansh:API-Gateway:8083 with status UP (replication=false)
-2024-12-25T20:22:26.436+05:30  INFO 16948 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
-2024-12-25T20:23:26.448+05:30  INFO 16948 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
-2024-12-25T20:24:26.454+05:30  INFO 16948 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
-2024-12-25T20:25:26.467+05:30  INFO 16948 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
-2024-12-25T20:26:26.468+05:30  INFO 16948 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T20:27:26.483+05:30  INFO 16948 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
-2024-12-25T20:28:26.356+05:30  WARN 16948 --- [serviceRegistry] [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
-2024-12-25T20:28:26.496+05:30  INFO 16948 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
-2024-12-25T20:29:16.807+05:30  INFO 16948 --- [serviceRegistry] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SERVICEREGISTRY with eureka with status DOWN
-2024-12-25T20:29:16.810+05:30  INFO 16948 --- [serviceRegistry] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-12-25T20:29:16.813+05:30  INFO 16948 --- [serviceRegistry] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-12-25T20:29:16.815+05:30  INFO 16948 --- [serviceRegistry] [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
-2024-12-25T20:29:16.815+05:30  INFO 16948 --- [serviceRegistry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
-2024-12-25T20:29:16.815+05:30  INFO 16948 --- [serviceRegistry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
-2024-12-25T20:29:16.815+05:30  INFO 16948 --- [serviceRegistry] [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
-2024-12-25T20:29:16.816+05:30  INFO 16948 --- [serviceRegistry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
-2024-12-25T20:29:16.816+05:30  INFO 16948 --- [serviceRegistry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
-2024-12-25T20:29:16.820+05:30  INFO 16948 --- [serviceRegistry] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2024-12-25T20:29:16.820+05:30  INFO 16948 --- [serviceRegistry] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
-2024-12-25T20:29:49.620+05:30  INFO 13664 --- [serviceRegistry] [main] c.l.s.ServiceRegistryApplication         : Starting ServiceRegistryApplication using Java 22 with PID 13664 (D:\code\microService\serviceRegistry\target\classes started by Shreyansh in D:\code\microService\userservice)
-2024-12-25T20:29:49.623+05:30  INFO 13664 --- [serviceRegistry] [main] c.l.s.ServiceRegistryApplication         : No active profile set, falling back to 1 default profile: "default"
-2024-12-25T20:29:50.414+05:30  INFO 13664 --- [serviceRegistry] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ac00c69b-b78b-3001-8520-ea13c903b913
-2024-12-25T20:29:50.604+05:30  INFO 13664 --- [serviceRegistry] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8761 (http)
-2024-12-25T20:29:50.615+05:30  INFO 13664 --- [serviceRegistry] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-25T20:29:50.615+05:30  INFO 13664 --- [serviceRegistry] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2024-12-25T20:29:50.663+05:30  INFO 13664 --- [serviceRegistry] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-12-25T20:29:50.663+05:30  INFO 13664 --- [serviceRegistry] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1008 ms
-2024-12-25T20:29:51.285+05:30  INFO 13664 --- [serviceRegistry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
-2024-12-25T20:29:51.286+05:30  INFO 13664 --- [serviceRegistry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
-2024-12-25T20:29:51.397+05:30  INFO 13664 --- [serviceRegistry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
-2024-12-25T20:29:51.398+05:30  INFO 13664 --- [serviceRegistry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
-2024-12-25T20:29:51.503+05:30  INFO 13664 --- [serviceRegistry] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
-2024-12-25T20:29:52.005+05:30  WARN 13664 --- [serviceRegistry] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2024-12-25T20:29:52.022+05:30  INFO 13664 --- [serviceRegistry] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2024-12-25T20:29:52.034+05:30  INFO 13664 --- [serviceRegistry] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2024-12-25T20:29:52.035+05:30  INFO 13664 --- [serviceRegistry] [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
-2024-12-25T20:29:52.038+05:30  INFO 13664 --- [serviceRegistry] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1735138792036 with initial instances count: 0
-2024-12-25T20:29:52.067+05:30  INFO 13664 --- [serviceRegistry] [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
-2024-12-25T20:29:52.068+05:30  WARN 13664 --- [serviceRegistry] [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
-2024-12-25T20:29:52.074+05:30  INFO 13664 --- [serviceRegistry] [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
-2024-12-25T20:29:52.075+05:30  INFO 13664 --- [serviceRegistry] [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
-2024-12-25T20:29:52.089+05:30  INFO 13664 --- [serviceRegistry] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2024-12-25T20:29:52.138+05:30  INFO 13664 --- [serviceRegistry] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SERVICEREGISTRY with eureka with status UP
-2024-12-25T20:29:52.146+05:30  INFO 13664 --- [serviceRegistry] [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
-2024-12-25T20:29:52.146+05:30  INFO 13664 --- [serviceRegistry] [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
-2024-12-25T20:29:52.146+05:30  INFO 13664 --- [serviceRegistry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
-2024-12-25T20:29:52.147+05:30  INFO 13664 --- [serviceRegistry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
-2024-12-25T20:29:52.147+05:30  INFO 13664 --- [serviceRegistry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
-2024-12-25T20:29:52.149+05:30  INFO 13664 --- [serviceRegistry] [Thread-9] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
-2024-12-25T20:29:52.152+05:30  INFO 13664 --- [serviceRegistry] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8761 (http) with context path '/'
-2024-12-25T20:29:52.152+05:30  INFO 13664 --- [serviceRegistry] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
-2024-12-25T20:29:52.165+05:30  INFO 13664 --- [serviceRegistry] [main] c.l.s.ServiceRegistryApplication         : Started ServiceRegistryApplication in 2.928 seconds (process running for 3.556)
-2024-12-25T20:29:52.426+05:30  INFO 13664 --- [serviceRegistry] [RMI TCP Connection(1)-192.168.1.5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-12-25T20:29:52.428+05:30  INFO 13664 --- [serviceRegistry] [RMI TCP Connection(1)-192.168.1.5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-12-25T20:29:52.431+05:30  INFO 13664 --- [serviceRegistry] [RMI TCP Connection(1)-192.168.1.5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2024-12-25T20:30:01.135+05:30  INFO 13664 --- [serviceRegistry] [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance RATING-SERVICE/Shreyansh:rating-service:8082 with status UP (replication=false)
-2024-12-25T20:30:04.288+05:30  INFO 13664 --- [serviceRegistry] [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HOTEL-SERVICE/Shreyansh:hotel-service:8081 with status UP (replication=false)
-2024-12-25T20:30:07.861+05:30  INFO 13664 --- [serviceRegistry] [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USER-SERVICE/Shreyansh:user-service:8080 with status UP (replication=false)
-2024-12-25T20:30:08.550+05:30  INFO 13664 --- [serviceRegistry] [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/Shreyansh:API-Gateway:8083 with status UP (replication=false)
-2024-12-25T20:30:52.148+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T20:31:52.149+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T20:32:52.152+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
-2024-12-25T20:33:52.156+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
-2024-12-25T20:34:52.156+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T20:35:52.158+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
-2024-12-25T20:36:52.165+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
-2024-12-25T20:37:52.179+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
-2024-12-25T20:38:52.194+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
-2024-12-25T20:39:52.076+05:30  WARN 13664 --- [serviceRegistry] [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
-2024-12-25T20:39:52.200+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
-2024-12-25T20:40:52.201+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T20:41:38.127+05:30  INFO 13664 --- [serviceRegistry] [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HOTEL-SERVICE/Shreyansh:hotel-service:8081 with status DOWN (replication=false)
-2024-12-25T20:41:38.132+05:30  INFO 13664 --- [serviceRegistry] [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance HOTEL-SERVICE/Shreyansh:hotel-service:8081 (replication=false)
-2024-12-25T20:41:44.031+05:30  INFO 13664 --- [serviceRegistry] [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HOTEL-SERVICE/Shreyansh:hotel-service:8081 with status UP (replication=false)
-2024-12-25T20:41:46.210+05:30  INFO 13664 --- [serviceRegistry] [http-nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/Shreyansh:API-Gateway:8083 with status DOWN (replication=false)
-2024-12-25T20:41:51.302+05:30  INFO 13664 --- [serviceRegistry] [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance API-GATEWAY/Shreyansh:API-Gateway:8083 (replication=false)
-2024-12-25T20:41:52.216+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 15ms
-2024-12-25T20:41:54.695+05:30  INFO 13664 --- [serviceRegistry] [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/Shreyansh:API-Gateway:8083 with status UP (replication=false)
-2024-12-25T20:42:52.219+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
-2024-12-25T20:43:52.234+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 14ms
-2024-12-25T20:44:52.075+05:30  INFO 13664 --- [serviceRegistry] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 8
-2024-12-25T20:44:52.240+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 6ms
-2024-12-25T20:45:52.252+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
-2024-12-25T20:46:52.266+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
-2024-12-25T20:47:52.267+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
-2024-12-25T20:48:52.269+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
-2024-12-25T20:49:52.091+05:30  WARN 13664 --- [serviceRegistry] [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
-2024-12-25T20:49:52.275+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
-2024-12-25T20:50:52.289+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
-2024-12-25T20:51:52.292+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
-2024-12-25T20:52:52.300+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
-2024-12-25T20:53:52.304+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
-2024-12-25T20:54:52.323+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 19ms
-2024-12-25T20:55:52.324+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T20:56:52.333+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
-2024-12-25T20:57:52.336+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
-2024-12-25T20:58:52.344+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
-2024-12-25T20:59:52.077+05:30  INFO 13664 --- [serviceRegistry] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 8
-2024-12-25T20:59:52.093+05:30  WARN 13664 --- [serviceRegistry] [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
-2024-12-25T20:59:52.356+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
-2024-12-25T21:00:52.357+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
-2024-12-25T21:01:52.357+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T21:02:52.357+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T21:03:52.358+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T21:04:52.358+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T21:05:52.358+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T21:05:55.338+05:30  INFO 13664 --- [serviceRegistry] [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CONFIG-SERVER/Shreyansh:config-Server:8884 with status UP (replication=false)
-2024-12-25T21:06:52.358+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T21:07:40.450+05:30  INFO 13664 --- [serviceRegistry] [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CONFIG-SERVER/Shreyansh:config-Server:8884 with status DOWN (replication=false)
-2024-12-25T21:07:40.453+05:30  INFO 13664 --- [serviceRegistry] [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance CONFIG-SERVER/Shreyansh:config-Server:8884 (replication=false)
-2024-12-25T21:07:44.870+05:30  INFO 13664 --- [serviceRegistry] [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CONFIG-SERVER/Shreyansh:config-Server:8884 with status UP (replication=false)
-2024-12-25T21:07:52.359+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T21:08:52.359+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T21:09:52.095+05:30  WARN 13664 --- [serviceRegistry] [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
-2024-12-25T21:09:52.359+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T21:10:52.360+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T21:11:52.360+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T21:12:52.361+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T21:12:53.835+05:30  INFO 13664 --- [serviceRegistry] [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CONFIG-SERVER/Shreyansh:config-Server:8884 with status DOWN (replication=false)
-2024-12-25T21:12:56.870+05:30  INFO 13664 --- [serviceRegistry] [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance CONFIG-SERVER/Shreyansh:config-Server:8884 (replication=false)
-2024-12-25T21:13:52.361+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T21:14:52.077+05:30  INFO 13664 --- [serviceRegistry] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 8
-2024-12-25T21:14:52.361+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T21:15:02.974+05:30  INFO 13664 --- [serviceRegistry] [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CONFIG-SERVER/Shreyansh:config-Server:8884 with status UP (replication=false)
-2024-12-25T21:15:52.369+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
-2024-12-25T21:16:52.369+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
-2024-12-25T21:17:52.371+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
-2024-12-25T21:18:52.373+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
-2024-12-25T21:19:52.099+05:30  WARN 13664 --- [serviceRegistry] [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
-2024-12-25T21:19:52.388+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 15ms
-2024-12-25T21:20:52.401+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
-2024-12-25T21:21:52.402+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
-2024-12-25T21:22:52.414+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
-2024-12-25T21:23:52.419+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
-2024-12-25T21:24:52.422+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
-2024-12-25T21:25:52.425+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
-2024-12-25T21:26:30.072+05:30  INFO 13664 --- [serviceRegistry] [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CONFIG-SERVER/Shreyansh:config-Server:8884 with status DOWN (replication=false)
-2024-12-25T21:26:33.107+05:30  INFO 13664 --- [serviceRegistry] [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance CONFIG-SERVER/Shreyansh:config-Server:8884 (replication=false)
-2024-12-25T21:26:40.195+05:30  INFO 13664 --- [serviceRegistry] [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CONFIG-SERVER/Shreyansh:config-Server:8884 with status UP (replication=false)
-2024-12-25T21:26:52.440+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 15ms
-2024-12-25T21:27:52.446+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
-2024-12-25T21:28:52.459+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
-2024-12-25T21:29:52.094+05:30  INFO 13664 --- [serviceRegistry] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 10
-2024-12-25T21:29:52.109+05:30  WARN 13664 --- [serviceRegistry] [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
-2024-12-25T21:29:52.467+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
-2024-12-25T21:30:13.108+05:30  INFO 13664 --- [serviceRegistry] [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CONFIG-SERVER/Shreyansh:config-Server:8884 with status DOWN (replication=false)
-2024-12-25T21:30:16.135+05:30  INFO 13664 --- [serviceRegistry] [http-nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance CONFIG-SERVER/Shreyansh:config-Server:8884 (replication=false)
-2024-12-25T21:30:22.487+05:30  INFO 13664 --- [serviceRegistry] [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CONFIG-SERVER/Shreyansh:config-Server:8884 with status UP (replication=false)
-2024-12-25T21:57:40.309+05:30  INFO 13664 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1607841ms
-2024-12-25T21:57:43.936+05:30  INFO 13664 --- [serviceRegistry] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SERVICEREGISTRY with eureka with status DOWN
-2024-12-25T21:57:43.937+05:30  INFO 13664 --- [serviceRegistry] [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CONFIG-SERVER/Shreyansh:config-Server:8884 with status DOWN (replication=false)
-2024-12-25T21:57:43.937+05:30  INFO 13664 --- [serviceRegistry] [http-nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/Shreyansh:API-Gateway:8083 with status DOWN (replication=false)
-2024-12-25T21:57:43.944+05:30  INFO 13664 --- [serviceRegistry] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-12-25T21:57:43.950+05:30  INFO 13664 --- [serviceRegistry] [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance RATING-SERVICE/Shreyansh:rating-service:8082 with status DOWN (replication=false)
-2024-12-25T21:57:43.955+05:30  INFO 13664 --- [serviceRegistry] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-12-25T21:57:43.961+05:30  INFO 13664 --- [serviceRegistry] [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
-2024-12-25T21:57:43.961+05:30  INFO 13664 --- [serviceRegistry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
-2024-12-25T21:57:43.962+05:30  INFO 13664 --- [serviceRegistry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
-2024-12-25T21:57:43.962+05:30  INFO 13664 --- [serviceRegistry] [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
-2024-12-25T21:57:43.967+05:30  INFO 13664 --- [serviceRegistry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
-2024-12-25T21:57:43.967+05:30  INFO 13664 --- [serviceRegistry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
-2024-12-25T21:57:43.978+05:30  INFO 13664 --- [serviceRegistry] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2024-12-25T21:57:43.979+05:30  INFO 13664 --- [serviceRegistry] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2024-12-26T20:45:42.345+05:30  INFO 1272 --- [serviceRegistry] [main] c.l.s.ServiceRegistryApplication         : Starting ServiceRegistryApplication using Java 22 with PID 1272 (D:\code\microService\serviceRegistry\target\classes started by Shreyansh in D:\code\microService\userservice)
+2024-12-26T20:45:42.355+05:30  INFO 1272 --- [serviceRegistry] [main] c.l.s.ServiceRegistryApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-26T20:45:43.635+05:30  INFO 1272 --- [serviceRegistry] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ac00c69b-b78b-3001-8520-ea13c903b913
+2024-12-26T20:45:43.956+05:30  INFO 1272 --- [serviceRegistry] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8761 (http)
+2024-12-26T20:45:43.975+05:30  INFO 1272 --- [serviceRegistry] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-26T20:45:43.975+05:30  INFO 1272 --- [serviceRegistry] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-26T20:45:44.056+05:30  INFO 1272 --- [serviceRegistry] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-26T20:45:44.057+05:30  INFO 1272 --- [serviceRegistry] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1645 ms
+2024-12-26T20:45:45.043+05:30  INFO 1272 --- [serviceRegistry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2024-12-26T20:45:45.045+05:30  INFO 1272 --- [serviceRegistry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2024-12-26T20:45:45.223+05:30  INFO 1272 --- [serviceRegistry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2024-12-26T20:45:45.224+05:30  INFO 1272 --- [serviceRegistry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2024-12-26T20:45:45.393+05:30  INFO 1272 --- [serviceRegistry] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2024-12-26T20:45:46.276+05:30  WARN 1272 --- [serviceRegistry] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-12-26T20:45:46.297+05:30  INFO 1272 --- [serviceRegistry] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-12-26T20:45:46.323+05:30  INFO 1272 --- [serviceRegistry] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-12-26T20:45:46.323+05:30  INFO 1272 --- [serviceRegistry] [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2024-12-26T20:45:46.326+05:30  INFO 1272 --- [serviceRegistry] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1735226146324 with initial instances count: 0
+2024-12-26T20:45:46.372+05:30  INFO 1272 --- [serviceRegistry] [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2024-12-26T20:45:46.374+05:30  WARN 1272 --- [serviceRegistry] [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2024-12-26T20:45:46.385+05:30  INFO 1272 --- [serviceRegistry] [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2024-12-26T20:45:46.386+05:30  INFO 1272 --- [serviceRegistry] [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2024-12-26T20:45:46.397+05:30  INFO 1272 --- [serviceRegistry] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-12-26T20:45:46.480+05:30  INFO 1272 --- [serviceRegistry] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SERVICEREGISTRY with eureka with status UP
+2024-12-26T20:45:46.493+05:30  INFO 1272 --- [serviceRegistry] [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2024-12-26T20:45:46.493+05:30  INFO 1272 --- [serviceRegistry] [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2024-12-26T20:45:46.493+05:30  INFO 1272 --- [serviceRegistry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2024-12-26T20:45:46.494+05:30  INFO 1272 --- [serviceRegistry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2024-12-26T20:45:46.494+05:30  INFO 1272 --- [serviceRegistry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2024-12-26T20:45:46.496+05:30  INFO 1272 --- [serviceRegistry] [Thread-9] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2024-12-26T20:45:46.509+05:30  INFO 1272 --- [serviceRegistry] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8761 (http) with context path '/'
+2024-12-26T20:45:46.510+05:30  INFO 1272 --- [serviceRegistry] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2024-12-26T20:45:46.535+05:30  INFO 1272 --- [serviceRegistry] [main] c.l.s.ServiceRegistryApplication         : Started ServiceRegistryApplication in 4.747 seconds (process running for 5.892)
+2024-12-26T20:45:46.821+05:30  INFO 1272 --- [serviceRegistry] [RMI TCP Connection(1)-192.168.1.9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-26T20:45:46.822+05:30  INFO 1272 --- [serviceRegistry] [RMI TCP Connection(1)-192.168.1.9] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-26T20:45:46.823+05:30  INFO 1272 --- [serviceRegistry] [RMI TCP Connection(1)-192.168.1.9] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-26T20:45:57.648+05:30  INFO 1272 --- [serviceRegistry] [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CONFIG-SERVER/Shreyansh:config-Server:8884 with status UP (replication=false)
+2024-12-26T20:46:01.270+05:30  INFO 1272 --- [serviceRegistry] [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance RATING-SERVICE/Shreyansh:rating-service:8082 with status UP (replication=false)
+2024-12-26T20:46:46.494+05:30  INFO 1272 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-12-26T20:47:10.832+05:30  INFO 1272 --- [serviceRegistry] [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/Shreyansh:API-Gateway:8083 with status UP (replication=false)
+2024-12-26T20:47:32.019+05:30  INFO 1272 --- [serviceRegistry] [http-nio-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USER-SERVICE/Shreyansh:user-service:8080 with status UP (replication=false)
+2024-12-26T20:47:46.495+05:30  INFO 1272 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-12-26T20:48:11.204+05:30  INFO 1272 --- [serviceRegistry] [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HOTEL-SERVICE/Shreyansh:hotel-service:8081 with status UP (replication=false)
+2024-12-26T20:48:46.495+05:30  INFO 1272 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-12-26T20:49:46.495+05:30  INFO 1272 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-12-26T20:50:46.496+05:30  INFO 1272 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-12-26T20:51:46.496+05:30  INFO 1272 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-12-26T20:52:46.497+05:30  INFO 1272 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-12-26T20:53:46.512+05:30  INFO 1272 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 15ms
+2024-12-26T20:54:46.513+05:30  INFO 1272 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-12-26T20:55:46.385+05:30  WARN 1272 --- [serviceRegistry] [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2024-12-26T20:55:46.514+05:30  INFO 1272 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2024-12-26T21:00:01.947+05:30  INFO 1272 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 195432ms
