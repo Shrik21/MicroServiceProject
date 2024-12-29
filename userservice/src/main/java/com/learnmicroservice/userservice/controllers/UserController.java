@@ -4,6 +4,7 @@ import com.learnmicroservice.userservice.entities.User;
 import com.learnmicroservice.userservice.serviceImpls.UserServiceImpls;
 import com.learnmicroservice.userservice.services.UserService;
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
+import io.github.resilience4j.retry.annotation.Retry;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -32,11 +33,18 @@ public class UserController {
         return ResponseEntity.ok(userService.updateUser(user,id));
     }
 
+    int retryCount = 1;
+
     @GetMapping("/{id}")
     @CircuitBreaker(name = "rattingHotelBreaker", fallbackMethod = "rattingHotelFallBack")
+    @Retry(name = "rattingHotelRetry", fallbackMethod = "rattingHotelFallBack")
     public ResponseEntity<User> getUser(@PathVariable long id){
+        logger.info("Getting user with id "+id);
+        logger.info("Retry count "+retryCount);
+        retryCount++;
         return ResponseEntity.ok(userService.getUser(id));
     }
+
 
     //create a fallback method for the circuit breaker
     public ResponseEntity<User> rattingHotelFallBack(long id, Exception e){

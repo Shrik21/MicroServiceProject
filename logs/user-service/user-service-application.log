@@ -342,3 +342,206 @@
 2024-12-29T13:13:45.372+05:30  INFO 8452 --- [user-service] [http-nio-8080-exec-5] c.l.u.serviceImpls.UserServiceImpls      : Getting Hotel details for hotelId {} ee8e0736-67db-416b-a0a7-111c8ccb89a3
 2024-12-29T13:13:45.378+05:30  INFO 8452 --- [user-service] [http-nio-8080-exec-5] c.l.u.serviceImpls.UserServiceImpls      : Getting Hotel details for hotelId {} 8068e000-bc72-4f2b-8a14-a5a100ea9ced
 2024-12-29T13:13:48.352+05:30  INFO 8452 --- [user-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-29T22:00:34.985+05:30  WARN 8452 --- [user-service] [HikariCP housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariCP - Thread starvation or clock leap detected (housekeeper delta=8h45m23s101ms354µs900ns).
+2024-12-29T22:03:35.723+05:30  INFO 8452 --- [user-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-29T22:08:35.737+05:30  INFO 8452 --- [user-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-29T22:11:49.782+05:30  INFO 8452 --- [user-service] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application USER-SERVICE with eureka with status DOWN
+2024-12-29T22:11:49.782+05:30  INFO 8452 --- [user-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1735490509782, current=DOWN, previous=UP]
+2024-12-29T22:11:49.782+05:30  INFO 8452 --- [user-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-SERVICE/Shreyansh:user-service:8080: registering service...
+2024-12-29T22:11:49.787+05:30  INFO 8452 --- [user-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-29T22:11:49.794+05:30  INFO 8452 --- [user-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-29T22:11:49.806+05:30  INFO 8452 --- [user-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-SERVICE/Shreyansh:user-service:8080 - registration status: 204
+2024-12-29T22:11:49.811+05:30  INFO 8452 --- [user-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-29T22:11:49.816+05:30  INFO 8452 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariCP - Shutdown initiated...
+2024-12-29T22:11:49.822+05:30  INFO 8452 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariCP - Shutdown completed.
+2024-12-29T22:11:49.825+05:30  INFO 8452 --- [user-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-12-29T22:11:52.837+05:30  INFO 8452 --- [user-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-12-29T22:11:52.855+05:30  INFO 8452 --- [user-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-SERVICE/Shreyansh:user-service:8080 - deregister  status: 200
+2024-12-29T22:11:52.855+05:30  INFO 8452 --- [user-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2024-12-29T22:12:00.522+05:30  INFO 3116 --- [user-service] [main] c.l.userservice.UserserviceApplication   : Starting UserserviceApplication using Java 22 with PID 3116 (D:\code\microService\userservice\target\classes started by Shreyansh in D:\code\microService\userservice)
+2024-12-29T22:12:00.526+05:30  INFO 3116 --- [user-service] [main] c.l.userservice.UserserviceApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-12-29T22:12:02.561+05:30  INFO 3116 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-29T22:12:02.855+05:30  INFO 3116 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 278 ms. Found 1 JPA repository interface.
+2024-12-29T22:12:03.522+05:30  INFO 3116 --- [user-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=58bc8f6d-2489-3976-a7a8-8827b5507b01
+2024-12-29T22:12:04.766+05:30  INFO 3116 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-29T22:12:04.791+05:30  INFO 3116 --- [user-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-29T22:12:04.792+05:30  INFO 3116 --- [user-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-29T22:12:04.916+05:30  INFO 3116 --- [user-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-29T22:12:04.917+05:30  INFO 3116 --- [user-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4304 ms
+2024-12-29T22:12:05.796+05:30  INFO 3116 --- [user-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-29T22:12:05.922+05:30  INFO 3116 --- [user-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-29T22:12:06.008+05:30  INFO 3116 --- [user-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-29T22:12:06.569+05:30  INFO 3116 --- [user-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-29T22:12:06.627+05:30  INFO 3116 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariCP - Starting...
+2024-12-29T22:12:06.919+05:30  INFO 3116 --- [user-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@18ffc008
+2024-12-29T22:12:06.922+05:30  INFO 3116 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariCP - Start completed.
+2024-12-29T22:12:07.019+05:30  WARN 3116 --- [user-service] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-29T22:12:07.021+05:30  WARN 3116 --- [user-service] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-12-29T22:12:07.055+05:30  INFO 3116 --- [user-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariCP)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-29T22:12:08.584+05:30  INFO 3116 --- [user-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-29T22:12:08.679+05:30  INFO 3116 --- [user-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-29T22:12:09.575+05:30  WARN 3116 --- [user-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-29T22:12:09.949+05:30  INFO 3116 --- [user-service] [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'HOTEL-SERVICE' URL not provided. Will try picking an instance via load-balancing.
+2024-12-29T22:12:13.707+05:30  INFO 3116 --- [user-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-12-29T22:12:13.853+05:30  WARN 3116 --- [user-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-12-29T22:12:13.919+05:30  INFO 3116 --- [user-service] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-12-29T22:12:14.159+05:30  INFO 3116 --- [user-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-12-29T22:12:14.209+05:30  INFO 3116 --- [user-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-12-29T22:12:14.215+05:30  INFO 3116 --- [user-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-29T22:12:14.230+05:30  INFO 3116 --- [user-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-12-29T22:12:14.231+05:30  INFO 3116 --- [user-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-12-29T22:12:14.231+05:30  INFO 3116 --- [user-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-12-29T22:12:14.231+05:30  INFO 3116 --- [user-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-12-29T22:12:14.231+05:30  INFO 3116 --- [user-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-12-29T22:12:14.231+05:30  INFO 3116 --- [user-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-12-29T22:12:14.231+05:30  INFO 3116 --- [user-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-12-29T22:12:15.007+05:30  INFO 3116 --- [user-service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-12-29T22:12:15.012+05:30  INFO 3116 --- [user-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-12-29T22:12:15.015+05:30  INFO 3116 --- [user-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-12-29T22:12:15.018+05:30  INFO 3116 --- [user-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1735490535016 with initial instances count: 3
+2024-12-29T22:12:15.047+05:30  INFO 3116 --- [user-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USER-SERVICE with eureka with status UP
+2024-12-29T22:12:15.048+05:30  INFO 3116 --- [user-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1735490535048, current=UP, previous=STARTING]
+2024-12-29T22:12:15.051+05:30  INFO 3116 --- [user-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-SERVICE/Shreyansh:user-service:8080: registering service...
+2024-12-29T22:12:15.088+05:30  INFO 3116 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-29T22:12:15.090+05:30  INFO 3116 --- [user-service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2024-12-29T22:12:15.128+05:30  INFO 3116 --- [user-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-SERVICE/Shreyansh:user-service:8080 - registration status: 204
+2024-12-29T22:12:15.129+05:30  INFO 3116 --- [user-service] [main] c.l.userservice.UserserviceApplication   : Started UserserviceApplication in 15.446 seconds (process running for 17.039)
+2024-12-29T22:12:15.601+05:30  INFO 3116 --- [user-service] [RMI TCP Connection(1)-192.168.1.17] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-29T22:12:15.602+05:30  INFO 3116 --- [user-service] [RMI TCP Connection(1)-192.168.1.17] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-29T22:12:15.606+05:30  INFO 3116 --- [user-service] [RMI TCP Connection(1)-192.168.1.17] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-12-29T22:13:30.007+05:30  INFO 3116 --- [user-service] [http-nio-8080-exec-2] c.l.u.controllers.UserController         : Getting user with id 101
+2024-12-29T22:13:30.008+05:30  INFO 3116 --- [user-service] [http-nio-8080-exec-2] c.l.u.controllers.UserController         : Retry count 1
+2024-12-29T22:13:37.347+05:30  INFO 3116 --- [user-service] [http-nio-8080-exec-2] c.l.u.controllers.UserController         : Getting user with id 101
+2024-12-29T22:13:37.347+05:30  INFO 3116 --- [user-service] [http-nio-8080-exec-2] c.l.u.controllers.UserController         : Retry count 2
+2024-12-29T22:13:44.415+05:30  INFO 3116 --- [user-service] [http-nio-8080-exec-2] c.l.u.controllers.UserController         : Getting user with id 101
+2024-12-29T22:13:44.416+05:30  INFO 3116 --- [user-service] [http-nio-8080-exec-2] c.l.u.controllers.UserController         : Retry count 3
+2024-12-29T22:13:46.461+05:30  INFO 3116 --- [user-service] [http-nio-8080-exec-2] c.l.u.controllers.UserController         : Fallback method executed because of I/O error on GET request for "http://RATING-SERVICE/rating/getByUserId/101": Connection refused: connect
+2024-12-29T22:14:29.443+05:30  INFO 3116 --- [user-service] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application USER-SERVICE with eureka with status DOWN
+2024-12-29T22:14:29.447+05:30  INFO 3116 --- [user-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1735490669447, current=DOWN, previous=UP]
+2024-12-29T22:14:29.461+05:30  INFO 3116 --- [user-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-29T22:14:29.465+05:30  INFO 3116 --- [user-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-SERVICE/Shreyansh:user-service:8080: registering service...
+2024-12-29T22:14:29.479+05:30  INFO 3116 --- [user-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-29T22:14:29.483+05:30  INFO 3116 --- [user-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-SERVICE/Shreyansh:user-service:8080 - registration status: 204
+2024-12-29T22:14:29.502+05:30  INFO 3116 --- [user-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-29T22:14:29.507+05:30  INFO 3116 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariCP - Shutdown initiated...
+2024-12-29T22:14:29.518+05:30  INFO 3116 --- [user-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariCP - Shutdown completed.
+2024-12-29T22:14:29.521+05:30  INFO 3116 --- [user-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-12-29T22:14:32.537+05:30  INFO 3116 --- [user-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-12-29T22:14:32.560+05:30  INFO 3116 --- [user-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-SERVICE/Shreyansh:user-service:8080 - deregister  status: 200
+2024-12-29T22:14:32.560+05:30  INFO 3116 --- [user-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2024-12-29T22:14:39.215+05:30  INFO 28316 --- [user-service] [main] c.l.userservice.UserserviceApplication   : Starting UserserviceApplication using Java 22 with PID 28316 (D:\code\microService\userservice\target\classes started by Shreyansh in D:\code\microService\userservice)
+2024-12-29T22:14:39.218+05:30  INFO 28316 --- [user-service] [main] c.l.userservice.UserserviceApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-12-29T22:14:40.983+05:30  INFO 28316 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-29T22:14:41.231+05:30  INFO 28316 --- [user-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 233 ms. Found 1 JPA repository interface.
+2024-12-29T22:14:41.946+05:30  INFO 28316 --- [user-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=58bc8f6d-2489-3976-a7a8-8827b5507b01
+2024-12-29T22:14:43.161+05:30  INFO 28316 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-29T22:14:43.181+05:30  INFO 28316 --- [user-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-29T22:14:43.182+05:30  INFO 28316 --- [user-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-29T22:14:43.296+05:30  INFO 28316 --- [user-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-29T22:14:43.297+05:30  INFO 28316 --- [user-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3996 ms
+2024-12-29T22:14:44.090+05:30  INFO 28316 --- [user-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-29T22:14:44.183+05:30  INFO 28316 --- [user-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-29T22:14:44.234+05:30  INFO 28316 --- [user-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-29T22:14:44.670+05:30  INFO 28316 --- [user-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-29T22:14:44.740+05:30  INFO 28316 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariCP - Starting...
+2024-12-29T22:14:44.979+05:30  INFO 28316 --- [user-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariCP - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c13534a
+2024-12-29T22:14:44.983+05:30  INFO 28316 --- [user-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariCP - Start completed.
+2024-12-29T22:14:45.053+05:30  WARN 28316 --- [user-service] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-29T22:14:45.056+05:30  WARN 28316 --- [user-service] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-12-29T22:14:45.081+05:30  INFO 28316 --- [user-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariCP)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-29T22:14:46.284+05:30  INFO 28316 --- [user-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-29T22:14:46.359+05:30  INFO 28316 --- [user-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-29T22:14:47.184+05:30  WARN 28316 --- [user-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-29T22:14:47.497+05:30  INFO 28316 --- [user-service] [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'HOTEL-SERVICE' URL not provided. Will try picking an instance via load-balancing.
+2024-12-29T22:14:50.790+05:30  INFO 28316 --- [user-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-12-29T22:14:50.912+05:30  WARN 28316 --- [user-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-12-29T22:14:50.963+05:30  INFO 28316 --- [user-service] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-12-29T22:14:51.145+05:30  INFO 28316 --- [user-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-12-29T22:14:51.188+05:30  INFO 28316 --- [user-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-12-29T22:14:51.194+05:30  INFO 28316 --- [user-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-29T22:14:51.209+05:30  INFO 28316 --- [user-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-12-29T22:14:51.209+05:30  INFO 28316 --- [user-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-12-29T22:14:51.209+05:30  INFO 28316 --- [user-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-12-29T22:14:51.209+05:30  INFO 28316 --- [user-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-12-29T22:14:51.210+05:30  INFO 28316 --- [user-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-12-29T22:14:51.210+05:30  INFO 28316 --- [user-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-12-29T22:14:51.210+05:30  INFO 28316 --- [user-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-12-29T22:14:51.836+05:30  INFO 28316 --- [user-service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-12-29T22:14:51.840+05:30  INFO 28316 --- [user-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-12-29T22:14:51.843+05:30  INFO 28316 --- [user-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-12-29T22:14:51.846+05:30  INFO 28316 --- [user-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1735490691844 with initial instances count: 3
+2024-12-29T22:14:51.873+05:30  INFO 28316 --- [user-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USER-SERVICE with eureka with status UP
+2024-12-29T22:14:51.874+05:30  INFO 28316 --- [user-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1735490691874, current=UP, previous=STARTING]
+2024-12-29T22:14:51.877+05:30  INFO 28316 --- [user-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-SERVICE/Shreyansh:user-service:8080: registering service...
+2024-12-29T22:14:51.909+05:30  INFO 28316 --- [user-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-29T22:14:51.910+05:30  INFO 28316 --- [user-service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2024-12-29T22:14:51.943+05:30  INFO 28316 --- [user-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-SERVICE/Shreyansh:user-service:8080 - registration status: 204
+2024-12-29T22:14:51.944+05:30  INFO 28316 --- [user-service] [main] c.l.userservice.UserserviceApplication   : Started UserserviceApplication in 13.472 seconds (process running for 14.835)
+2024-12-29T22:14:52.379+05:30  INFO 28316 --- [user-service] [RMI TCP Connection(2)-192.168.1.17] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-29T22:14:52.379+05:30  INFO 28316 --- [user-service] [RMI TCP Connection(2)-192.168.1.17] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-29T22:14:52.384+05:30  INFO 28316 --- [user-service] [RMI TCP Connection(2)-192.168.1.17] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-12-29T22:14:58.271+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-2] c.l.u.controllers.UserController         : Getting user with id 101
+2024-12-29T22:14:58.271+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-2] c.l.u.controllers.UserController         : Retry count 1
+2024-12-29T22:14:58.571+05:30  WARN 28316 --- [user-service] [http-nio-8080-exec-2] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: RATING-SERVICE
+2024-12-29T22:14:58.588+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-2] c.l.u.controllers.UserController         : Fallback method executed because of No instances available for RATING-SERVICE
+2024-12-29T22:15:20.895+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-3] c.l.u.controllers.UserController         : Getting user with id 101
+2024-12-29T22:15:20.897+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-3] c.l.u.controllers.UserController         : Retry count 2
+2024-12-29T22:15:20.904+05:30  WARN 28316 --- [user-service] [http-nio-8080-exec-3] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: RATING-SERVICE
+2024-12-29T22:15:20.905+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-3] c.l.u.controllers.UserController         : Fallback method executed because of No instances available for RATING-SERVICE
+2024-12-29T22:15:28.516+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-4] c.l.u.controllers.UserController         : Getting user with id 101
+2024-12-29T22:15:28.516+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-4] c.l.u.controllers.UserController         : Retry count 3
+2024-12-29T22:15:28.524+05:30  WARN 28316 --- [user-service] [http-nio-8080-exec-4] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: RATING-SERVICE
+2024-12-29T22:15:28.525+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-4] c.l.u.controllers.UserController         : Fallback method executed because of No instances available for RATING-SERVICE
+2024-12-29T22:15:33.921+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-5] c.l.u.controllers.UserController         : Getting user with id 101
+2024-12-29T22:15:33.922+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-5] c.l.u.controllers.UserController         : Retry count 4
+2024-12-29T22:15:33.930+05:30  WARN 28316 --- [user-service] [http-nio-8080-exec-5] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: RATING-SERVICE
+2024-12-29T22:15:33.932+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-5] c.l.u.controllers.UserController         : Fallback method executed because of No instances available for RATING-SERVICE
+2024-12-29T22:15:40.413+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-6] c.l.u.controllers.UserController         : Getting user with id 101
+2024-12-29T22:15:40.413+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-6] c.l.u.controllers.UserController         : Retry count 5
+2024-12-29T22:15:40.421+05:30  WARN 28316 --- [user-service] [http-nio-8080-exec-6] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: RATING-SERVICE
+2024-12-29T22:15:40.427+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-6] c.l.u.controllers.UserController         : Fallback method executed because of No instances available for RATING-SERVICE
+2024-12-29T22:15:42.564+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-7] c.l.u.controllers.UserController         : Fallback method executed because of CircuitBreaker 'rattingHotelBreaker' is OPEN and does not permit further calls
+2024-12-29T22:16:39.913+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-1] c.l.u.controllers.UserController         : Getting user with id 101
+2024-12-29T22:16:39.913+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-1] c.l.u.controllers.UserController         : Retry count 6
+2024-12-29T22:16:39.919+05:30  WARN 28316 --- [user-service] [http-nio-8080-exec-1] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: RATING-SERVICE
+2024-12-29T22:16:39.919+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-1] c.l.u.controllers.UserController         : Fallback method executed because of No instances available for RATING-SERVICE
+2024-12-29T22:16:42.370+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-2] c.l.u.controllers.UserController         : Getting user with id 101
+2024-12-29T22:16:42.370+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-2] c.l.u.controllers.UserController         : Retry count 7
+2024-12-29T22:16:42.377+05:30  WARN 28316 --- [user-service] [http-nio-8080-exec-2] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: RATING-SERVICE
+2024-12-29T22:16:42.377+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-2] c.l.u.controllers.UserController         : Fallback method executed because of No instances available for RATING-SERVICE
+2024-12-29T22:16:44.121+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-3] c.l.u.controllers.UserController         : Getting user with id 101
+2024-12-29T22:16:44.121+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-3] c.l.u.controllers.UserController         : Retry count 8
+2024-12-29T22:16:44.129+05:30  WARN 28316 --- [user-service] [http-nio-8080-exec-3] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: RATING-SERVICE
+2024-12-29T22:16:44.129+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-3] c.l.u.controllers.UserController         : Fallback method executed because of No instances available for RATING-SERVICE
+2024-12-29T22:17:16.218+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-5] c.l.u.controllers.UserController         : Getting user with id 101
+2024-12-29T22:17:16.219+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-5] c.l.u.controllers.UserController         : Retry count 9
+2024-12-29T22:17:16.227+05:30  WARN 28316 --- [user-service] [http-nio-8080-exec-5] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: RATING-SERVICE
+2024-12-29T22:17:16.227+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-5] c.l.u.controllers.UserController         : Fallback method executed because of No instances available for RATING-SERVICE
+2024-12-29T22:17:18.428+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-6] c.l.u.controllers.UserController         : Getting user with id 101
+2024-12-29T22:17:18.428+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-6] c.l.u.controllers.UserController         : Retry count 10
+2024-12-29T22:17:18.437+05:30  WARN 28316 --- [user-service] [http-nio-8080-exec-6] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: RATING-SERVICE
+2024-12-29T22:17:18.438+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-6] c.l.u.controllers.UserController         : Fallback method executed because of No instances available for RATING-SERVICE
+2024-12-29T22:17:20.537+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-7] c.l.u.controllers.UserController         : Fallback method executed because of CircuitBreaker 'rattingHotelBreaker' is OPEN and does not permit further calls
+2024-12-29T22:17:22.413+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-8] c.l.u.controllers.UserController         : Fallback method executed because of CircuitBreaker 'rattingHotelBreaker' is OPEN and does not permit further calls
+2024-12-29T22:17:24.252+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-9] c.l.u.controllers.UserController         : Fallback method executed because of CircuitBreaker 'rattingHotelBreaker' is OPEN and does not permit further calls
+2024-12-29T22:17:26.244+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-10] c.l.u.controllers.UserController         : Getting user with id 101
+2024-12-29T22:17:26.245+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-10] c.l.u.controllers.UserController         : Retry count 11
+2024-12-29T22:17:26.639+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-10] c.l.u.serviceImpls.UserServiceImpls      : User Details ### User(id=101, name=Rohan, email=rohan@gmail.com, about=manager, ratings=[])
+2024-12-29T22:17:26.645+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-10] c.l.u.serviceImpls.UserServiceImpls      : Rating ** [Ratings(ratingId=676450446cb34a5ffb657234, userId=101, hotelId=207d1084-8934-4ef7-9c38-41527b446857, rating=6, feedback=Service is goog, hotel=null), Ratings(ratingId=676450606cb34a5ffb657235, userId=101, hotelId=ee8e0736-67db-416b-a0a7-111c8ccb89a3, rating=6, feedback=Service is good, hotel=null), Ratings(ratingId=676450756cb34a5ffb657236, userId=101, hotelId=8068e000-bc72-4f2b-8a14-a5a100ea9ced, rating=9, feedback=Service is so good, hotel=null)]
+2024-12-29T22:17:26.646+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-10] c.l.u.serviceImpls.UserServiceImpls      : Getting Hotel details for hotelId {} 207d1084-8934-4ef7-9c38-41527b446857
+2024-12-29T22:17:26.695+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-10] c.l.u.serviceImpls.UserServiceImpls      : Getting Hotel details for hotelId {} ee8e0736-67db-416b-a0a7-111c8ccb89a3
+2024-12-29T22:17:26.709+05:30  INFO 28316 --- [user-service] [http-nio-8080-exec-10] c.l.u.serviceImpls.UserServiceImpls      : Getting Hotel details for hotelId {} 8068e000-bc72-4f2b-8a14-a5a100ea9ced
