@@ -1,17 +1,23 @@
 package com.learnmicroservice.userservice.controllers;
 
 import com.learnmicroservice.userservice.entities.User;
+import com.learnmicroservice.userservice.serviceImpls.UserServiceImpls;
 import com.learnmicroservice.userservice.services.UserService;
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.logging.Logger;
 
 @RestController
 @RequestMapping("/users")
 public class UserController {
+
+   // logging the info
+   private Logger logger = Logger.getLogger(UserController.class.getName());
 
     @Autowired
     private UserService userService;
@@ -34,7 +40,14 @@ public class UserController {
 
     //create a fallback method for the circuit breaker
     public ResponseEntity<User> rattingHotelFallBack(long id, Exception e){
-        return ResponseEntity.ok(new User());
+        logger.info("Fallback method called");
+       //User user = User.builder().id(id).name("User not found").email("User not found").about("User not found").build();
+        User user = new User();
+        user.setId(id);
+        user.setName("User not found");
+        user.setEmail("Dummy email");
+        user.setAbout("User not found");
+        return ResponseEntity.ok(user);
     }
 
     @GetMapping("/allUser")
