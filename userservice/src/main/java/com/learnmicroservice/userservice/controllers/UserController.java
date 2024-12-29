@@ -40,7 +40,7 @@ public class UserController {
 
     //create a fallback method for the circuit breaker
     public ResponseEntity<User> rattingHotelFallBack(long id, Exception e){
-        logger.info("Fallback method called");
+        logger.info("Fallback method executed because of "+e.getMessage());
        //User user = User.builder().id(id).name("User not found").email("User not found").about("User not found").build();
         User user = new User();
         user.setId(id);
