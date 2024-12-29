@@ -29,3 +29,16 @@
 2024-12-27T18:49:42.208+05:30  INFO 21152 --- [config-Server] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8884
 2024-12-27T18:49:42.230+05:30  INFO 21152 --- [config-Server] [main] c.l.c.ConfigServerApplication            : Started ConfigServerApplication in 8.555 seconds (process running for 10.839)
 2024-12-27T18:49:42.238+05:30  INFO 21152 --- [config-Server] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CONFIG-SERVER/Shreyansh:config-Server:8884 - registration status: 204
+2024-12-27T18:54:41.696+05:30  INFO 21152 --- [config-Server] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-27T18:59:41.704+05:30  INFO 21152 --- [config-Server] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-27T19:04:34.478+05:30  INFO 21152 --- [config-Server] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application CONFIG-SERVER with eureka with status DOWN
+2024-12-27T19:04:34.479+05:30  INFO 21152 --- [config-Server] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1735306474479, current=DOWN, previous=UP]
+2024-12-27T19:04:34.480+05:30  INFO 21152 --- [config-Server] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CONFIG-SERVER/Shreyansh:config-Server:8884: registering service...
+2024-12-27T19:04:34.485+05:30  INFO 21152 --- [config-Server] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27T19:04:34.487+05:30  WARN 21152 --- [config-Server] [Thread-3] .c.s.e.MultipleJGitEnvironmentRepository : Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\ASUS\AppData\Local\Temp\config-repo-14056487121943704886\.git\objects\pack\pack-66843a52981c6ded0469469a24ef6fcd0437f99f.idx
+2024-12-27T19:04:34.493+05:30  INFO 21152 --- [config-Server] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-27T19:04:34.500+05:30  INFO 21152 --- [config-Server] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CONFIG-SERVER/Shreyansh:config-Server:8884 - registration status: 204
+2024-12-27T19:04:34.501+05:30  INFO 21152 --- [config-Server] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-12-27T19:04:37.515+05:30  INFO 21152 --- [config-Server] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-12-27T19:04:37.538+05:30  INFO 21152 --- [config-Server] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CONFIG-SERVER/Shreyansh:config-Server:8884 - deregister  status: 200
+2024-12-27T19:04:37.539+05:30  INFO 21152 --- [config-Server] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

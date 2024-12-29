@@ -2,6 +2,7 @@ package com.learnmicroservice.userservice.controllers;
 
 import com.learnmicroservice.userservice.entities.User;
 import com.learnmicroservice.userservice.services.UserService;
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -26,8 +27,14 @@ public class UserController {
     }
 
     @GetMapping("/{id}")
+    @CircuitBreaker(name = "rattingHotelBreaker", fallbackMethod = "rattingHotelFallBack")
     public ResponseEntity<User> getUser(@PathVariable long id){
         return ResponseEntity.ok(userService.getUser(id));
+    }
+
+    //create a fallback method for the circuit breaker
+    public ResponseEntity<User> rattingHotelFallBack(long id, Exception e){
+        return ResponseEntity.ok(new User());
     }
 
     @GetMapping("/allUser")

@@ -38,3 +38,13 @@
 2024-12-27T18:49:34.110+05:30  INFO 4108 --- [API-Gateway] [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8083 (http)
 2024-12-27T18:49:34.113+05:30  INFO 4108 --- [API-Gateway] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8083
 2024-12-27T18:49:34.146+05:30  INFO 4108 --- [API-Gateway] [main] c.l.apigateway.ApiGatewayApplication     : Started ApiGatewayApplication in 5.781 seconds (process running for 8.977)
+2024-12-27T18:54:33.125+05:30  INFO 4108 --- [API-Gateway] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-27T18:59:33.138+05:30  INFO 4108 --- [API-Gateway] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-27T19:04:33.153+05:30  INFO 4108 --- [API-Gateway] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-27T19:04:42.458+05:30  INFO 4108 --- [API-Gateway] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application API-GATEWAY with eureka with status DOWN
+2024-12-27T19:04:42.459+05:30  INFO 4108 --- [API-Gateway] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1735306482459, current=DOWN, previous=UP]
+2024-12-27T19:04:42.460+05:30  INFO 4108 --- [API-Gateway] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Shreyansh:API-Gateway:8083: registering service...
+2024-12-27T19:04:42.467+05:30  INFO 4108 --- [API-Gateway] [SpringApplicationShutdownHook] o.s.b.w.embedded.netty.GracefulShutdown  : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27T19:04:42.473+05:30  INFO 4108 --- [API-Gateway] [netty-shutdown] o.s.b.w.embedded.netty.GracefulShutdown  : Graceful shutdown complete
+2024-12-27T19:04:42.486+05:30  INFO 4108 --- [API-Gateway] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Shreyansh:API-Gateway:8083 - registration status: 204
+2024-12-27T19:04:44.588+05:30  INFO 4108 --- [API-Gateway] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...

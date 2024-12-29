@@ -1,42 +1,47 @@
-2024-12-27T18:48:38.308+05:30  INFO 26448 --- [serviceRegistry] [main] c.l.s.ServiceRegistryApplication         : Starting ServiceRegistryApplication using Java 22 with PID 26448 (D:\code\microService\serviceRegistry\target\classes started by Shreyansh in D:\code\microService\userservice)
-2024-12-27T18:48:38.325+05:30  INFO 26448 --- [serviceRegistry] [main] c.l.s.ServiceRegistryApplication         : No active profile set, falling back to 1 default profile: "default"
-2024-12-27T18:48:40.366+05:30  INFO 26448 --- [serviceRegistry] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ac00c69b-b78b-3001-8520-ea13c903b913
-2024-12-27T18:48:40.868+05:30  INFO 26448 --- [serviceRegistry] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8761 (http)
-2024-12-27T18:48:40.896+05:30  INFO 26448 --- [serviceRegistry] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-27T18:48:40.896+05:30  INFO 26448 --- [serviceRegistry] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2024-12-27T18:48:41.034+05:30  INFO 26448 --- [serviceRegistry] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-12-27T18:48:41.034+05:30  INFO 26448 --- [serviceRegistry] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2616 ms
-2024-12-27T18:48:42.619+05:30  INFO 26448 --- [serviceRegistry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
-2024-12-27T18:48:42.621+05:30  INFO 26448 --- [serviceRegistry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
-2024-12-27T18:48:42.914+05:30  INFO 26448 --- [serviceRegistry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
-2024-12-27T18:48:42.914+05:30  INFO 26448 --- [serviceRegistry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
-2024-12-27T18:48:43.196+05:30  INFO 26448 --- [serviceRegistry] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
-2024-12-27T18:48:44.457+05:30  WARN 26448 --- [serviceRegistry] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2024-12-27T18:48:44.495+05:30  INFO 26448 --- [serviceRegistry] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2024-12-27T18:48:44.533+05:30  INFO 26448 --- [serviceRegistry] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2024-12-27T18:48:44.534+05:30  INFO 26448 --- [serviceRegistry] [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
-2024-12-27T18:48:44.538+05:30  INFO 26448 --- [serviceRegistry] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1735305524536 with initial instances count: 0
-2024-12-27T18:48:44.614+05:30  INFO 26448 --- [serviceRegistry] [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
-2024-12-27T18:48:44.617+05:30  WARN 26448 --- [serviceRegistry] [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
-2024-12-27T18:48:44.634+05:30  INFO 26448 --- [serviceRegistry] [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
-2024-12-27T18:48:44.635+05:30  INFO 26448 --- [serviceRegistry] [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
-2024-12-27T18:48:44.652+05:30  INFO 26448 --- [serviceRegistry] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
-2024-12-27T18:48:44.790+05:30  INFO 26448 --- [serviceRegistry] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SERVICEREGISTRY with eureka with status UP
-2024-12-27T18:48:44.808+05:30  INFO 26448 --- [serviceRegistry] [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
-2024-12-27T18:48:44.809+05:30  INFO 26448 --- [serviceRegistry] [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
-2024-12-27T18:48:44.809+05:30  INFO 26448 --- [serviceRegistry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
-2024-12-27T18:48:44.810+05:30  INFO 26448 --- [serviceRegistry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
-2024-12-27T18:48:44.810+05:30  INFO 26448 --- [serviceRegistry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
-2024-12-27T18:48:44.815+05:30  INFO 26448 --- [serviceRegistry] [Thread-9] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
-2024-12-27T18:48:44.822+05:30  INFO 26448 --- [serviceRegistry] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8761 (http) with context path '/'
-2024-12-27T18:48:44.824+05:30  INFO 26448 --- [serviceRegistry] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
-2024-12-27T18:48:44.852+05:30  INFO 26448 --- [serviceRegistry] [main] c.l.s.ServiceRegistryApplication         : Started ServiceRegistryApplication in 7.422 seconds (process running for 16.687)
-2024-12-27T18:49:05.036+05:30  INFO 26448 --- [serviceRegistry] [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-12-27T18:49:05.037+05:30  INFO 26448 --- [serviceRegistry] [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-12-27T18:49:05.039+05:30  INFO 26448 --- [serviceRegistry] [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2024-12-27T18:49:05.503+05:30  INFO 26448 --- [serviceRegistry] [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance RATING-SERVICE/Shreyansh:rating-service:8082 with status UP (replication=false)
-2024-12-27T18:49:14.221+05:30  INFO 26448 --- [serviceRegistry] [http-nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HOTEL-SERVICE/Shreyansh:hotel-service:8081 with status UP (replication=false)
-2024-12-27T18:49:24.256+05:30  INFO 26448 --- [serviceRegistry] [http-nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance USER-SERVICE/Shreyansh:user-service:8080 with status UP (replication=false)
-2024-12-27T18:49:33.865+05:30  INFO 26448 --- [serviceRegistry] [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/Shreyansh:API-Gateway:8083 with status UP (replication=false)
-2024-12-27T18:49:42.236+05:30  INFO 26448 --- [serviceRegistry] [http-nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance CONFIG-SERVER/Shreyansh:config-Server:8884 with status UP (replication=false)
-2024-12-27T18:49:44.813+05:30  INFO 26448 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-12-29T12:01:05.042+05:30  INFO 23000 --- [serviceRegistry] [main] c.l.s.ServiceRegistryApplication         : Starting ServiceRegistryApplication using Java 22 with PID 23000 (D:\code\microService\serviceRegistry\target\classes started by Shreyansh in D:\code\microService\userservice)
+2024-12-29T12:01:05.050+05:30  INFO 23000 --- [serviceRegistry] [main] c.l.s.ServiceRegistryApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-29T12:01:05.992+05:30  INFO 23000 --- [serviceRegistry] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ac00c69b-b78b-3001-8520-ea13c903b913
+2024-12-29T12:01:06.236+05:30  INFO 23000 --- [serviceRegistry] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8761 (http)
+2024-12-29T12:01:06.250+05:30  INFO 23000 --- [serviceRegistry] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-29T12:01:06.251+05:30  INFO 23000 --- [serviceRegistry] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-29T12:01:06.310+05:30  INFO 23000 --- [serviceRegistry] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-29T12:01:06.310+05:30  INFO 23000 --- [serviceRegistry] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1220 ms
+2024-12-29T12:01:07.084+05:30  INFO 23000 --- [serviceRegistry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2024-12-29T12:01:07.085+05:30  INFO 23000 --- [serviceRegistry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2024-12-29T12:01:07.256+05:30  INFO 23000 --- [serviceRegistry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2024-12-29T12:01:07.257+05:30  INFO 23000 --- [serviceRegistry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2024-12-29T12:01:07.406+05:30  INFO 23000 --- [serviceRegistry] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2024-12-29T12:01:08.005+05:30  WARN 23000 --- [serviceRegistry] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-12-29T12:01:08.021+05:30  INFO 23000 --- [serviceRegistry] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-12-29T12:01:08.035+05:30  INFO 23000 --- [serviceRegistry] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-12-29T12:01:08.036+05:30  INFO 23000 --- [serviceRegistry] [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2024-12-29T12:01:08.038+05:30  INFO 23000 --- [serviceRegistry] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1735453868036 with initial instances count: 0
+2024-12-29T12:01:08.070+05:30  INFO 23000 --- [serviceRegistry] [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2024-12-29T12:01:08.072+05:30  WARN 23000 --- [serviceRegistry] [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2024-12-29T12:01:08.087+05:30  INFO 23000 --- [serviceRegistry] [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2024-12-29T12:01:08.088+05:30  INFO 23000 --- [serviceRegistry] [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2024-12-29T12:01:08.095+05:30  INFO 23000 --- [serviceRegistry] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-12-29T12:01:08.146+05:30  INFO 23000 --- [serviceRegistry] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SERVICEREGISTRY with eureka with status UP
+2024-12-29T12:01:08.154+05:30  INFO 23000 --- [serviceRegistry] [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2024-12-29T12:01:08.155+05:30  INFO 23000 --- [serviceRegistry] [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2024-12-29T12:01:08.155+05:30  INFO 23000 --- [serviceRegistry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2024-12-29T12:01:08.155+05:30  INFO 23000 --- [serviceRegistry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2024-12-29T12:01:08.155+05:30  INFO 23000 --- [serviceRegistry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2024-12-29T12:01:08.157+05:30  INFO 23000 --- [serviceRegistry] [Thread-9] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2024-12-29T12:01:08.161+05:30  INFO 23000 --- [serviceRegistry] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8761 (http) with context path '/'
+2024-12-29T12:01:08.162+05:30  INFO 23000 --- [serviceRegistry] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2024-12-29T12:01:08.174+05:30  INFO 23000 --- [serviceRegistry] [main] c.l.s.ServiceRegistryApplication         : Started ServiceRegistryApplication in 3.535 seconds (process running for 9.216)
+2024-12-29T12:01:13.990+05:30  INFO 23000 --- [serviceRegistry] [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-29T12:01:13.990+05:30  INFO 23000 --- [serviceRegistry] [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-29T12:01:13.991+05:30  INFO 23000 --- [serviceRegistry] [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-29T12:02:08.156+05:30  INFO 23000 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-12-29T12:03:08.167+05:30  INFO 23000 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
+2024-12-29T12:04:08.169+05:30  INFO 23000 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2024-12-29T12:05:08.181+05:30  INFO 23000 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 12ms
+2024-12-29T12:06:08.181+05:30  INFO 23000 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-12-29T12:07:08.185+05:30  INFO 23000 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2024-12-29T12:08:08.198+05:30  INFO 23000 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 13ms
+2024-12-29T12:09:08.198+05:30  INFO 23000 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-12-29T12:10:08.208+05:30  INFO 23000 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
+2024-12-29T12:11:08.091+05:30  WARN 23000 --- [serviceRegistry] [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2024-12-29T12:11:08.209+05:30  INFO 23000 --- [serviceRegistry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
